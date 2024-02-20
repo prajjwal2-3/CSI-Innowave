@@ -1,0 +1,1 @@
+export const LOGO = './assets/IMG-20231101-WA0040(1).jpg'
