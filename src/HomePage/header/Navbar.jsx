@@ -65,7 +65,7 @@ const NavBar = () => {
             <div
               className={`${
                 isMobileMenuOpen
-                  ? "absolute  bg-white p-2 inset-12  rounded shadow  max-h-[50%]"
+                  ? "absolute  bg-white p-2 inset-12  rounded shadow  max-h-72"
                   : "hidden"
               } lg:flex lg:items-center lg:w-auto`}
               id="mobile-menu-2"
