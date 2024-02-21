@@ -8,7 +8,7 @@ const Team = () => {
         <p className="text-white"></p>
       </section>
       <section className="flex justify-center items-center">
-        <div className="m-5 grid grid-cols-4 gap-4">
+        <div className="flex flex-col m-5 md:grid lg:grid-cols-4 md:grid-cols-2 gap-4 font-semibold font-serif">
           <div className="text-center">
             <div className="card rounded-md bg-white">
               <img
