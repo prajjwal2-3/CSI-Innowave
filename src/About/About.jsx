@@ -94,10 +94,10 @@ function About() {
         </div>
         <div>
           {/* Subsection: MAIT Logo and Background Color */}
-          <div className="p-3.5 flex justify-center">
+          <div className="p-3.5 flex justify-center bg-[#012340]">
             <img
               className="h-40 bg-center"
-              src="https://alumni.mait.ac.in//images/MAIT/Mait_Logo.png"
+              src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708518244/CSI%20Website/mtyfjhl34ypuuywe2nxw.png"
               alt=""
             />
           </div>
