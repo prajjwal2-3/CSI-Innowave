@@ -1,3 +1,4 @@
+import maitLogo from "../assets/MAIT_LOGO_FULL.png";
 function About() {
   return (
     <>
@@ -11,7 +12,7 @@ function About() {
           {/* Subsection: Introduction to CSI */}
           <div className="mt-5">
             <p>
-              Established in 2018, CSI – The Computer Science Society of India
+              Established in 2009, CSI – The Computer Science Society of India
               chapter MAIT in collaboration with Innowave comprises highly
               enthusiastic students with a great zeal to learn and execute new
               skills & ideas. The society provides an open floor for both
@@ -27,6 +28,7 @@ function About() {
             <h3 className="font-bold underline mb-1.5">VISION</h3>
             <p>
               CSI envisions a future where innovation, education, and
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               sustainable practices converge to elevate India's trajectory
               towards progress.
             </p>
@@ -99,7 +101,7 @@ function About() {
           >
             <img
               className="h-40 bg-center"
-              src="https://mait.ac.in/images/MAIT_LOGO_FULL.png"
+              src={maitLogo}
               alt=""
             />
           </div>
