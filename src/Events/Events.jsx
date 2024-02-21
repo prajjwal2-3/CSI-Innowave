@@ -12,11 +12,9 @@ const Events = () => {
           <img
             src={event.posterLink}
             alt={event.title}
-            className="w-full h-40 object-cover mb-4 rounded-md"
+            className="w-full h-50% object-cover mb-4 rounded-md"
           />
-          <h2 className="text-gray-500 text-xl font-bold mb-2">
-            {event.title}
-          </h2>
+          <h2 className="text-black text-xl font-bold mb-2">{event.title}</h2>
           <p className="text-gray-500 mb-4">{event.shortDescription}</p>
           <p className="text-gray-500">{event.date}</p>
         </div>

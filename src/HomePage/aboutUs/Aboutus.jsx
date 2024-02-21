@@ -26,7 +26,7 @@ const Aboutus = () => {
 
         <div class="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-2 md:gap-0 xl:mt-24">
           <div class="md:p-8 lg:p-14">
-            <h3 class="mt-12 text-5xl font-bold text-gray-900 font-pj">100+</h3>
+            <h3 class="mt-12 text-5xl font-bold text-gray-900 font-pj">50+</h3>
             <p class="mt-5 text-lg text-gray-600 font-pj uppercase">Members</p>
           </div>
           <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">

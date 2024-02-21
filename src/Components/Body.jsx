@@ -1,6 +1,5 @@
 import Home from "./Home";
 import NavBar from "../HomePage/header/Navbar";
-import Contact from "../Contact/Contact";
 import Events from "../Events/Events";
 import Gallery from "../Gallery/Gallery";
 import Team from "../Team/Team";
@@ -28,10 +27,6 @@ const Body = () => {
         {
           path: "/aboutUs",
           element: <About />,
-        },
-        {
-          path: "/contact",
-          element: <Contact />,
         },
         {
           path: "/events",
