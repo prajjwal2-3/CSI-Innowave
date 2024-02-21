@@ -105,14 +105,6 @@ const NavBar = () => {
                     Gallery
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    to="/contact"
-                    class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
-                  >
-                    Contact
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
