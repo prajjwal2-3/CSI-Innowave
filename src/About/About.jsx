@@ -94,11 +94,12 @@ function About() {
         </div>
         <div>
           {/* Subsection: MAIT Logo and Background Color */}
-          <div
-            style={{ backgroundColor: "#012340" }}
-            className="p-3.5 flex justify-center"
-          >
-            <img className="h-40 bg-center" src={maitLogo} alt="" />
+          <div className="p-3.5 flex justify-center">
+            <img
+              className="h-40 bg-center"
+              src="https://alumni.mait.ac.in//images/MAIT/Mait_Logo.png"
+              alt=""
+            />
           </div>
           {/* Subsection: Introduction to MAIT */}
           <div className="py-3">

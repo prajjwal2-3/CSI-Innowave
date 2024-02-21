@@ -15,7 +15,11 @@ const NavBar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
-                <img className="h-15 w-60" src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708503607/CSI%20Website/f1d6gk5mr0rkt6dse04q.png" alt=""/>
+                <img
+                  className="h-15 w-60"
+                  src="https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708503607/CSI%20Website/f1d6gk5mr0rkt6dse04q.png"
+                  alt=""
+                />
               </span>
             </Link>
           </div>
