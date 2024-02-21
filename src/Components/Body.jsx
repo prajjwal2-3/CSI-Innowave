@@ -5,6 +5,7 @@ import Gallery from "../Gallery/Gallery";
 import Team from "../Team/Team";
 import About from "../About/About";
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
+import Footer from "./Footer";
 
 const Body = () => {
   const AppLayout = () => {
@@ -12,6 +13,7 @@ const Body = () => {
       <div>
         <NavBar />
         <Outlet />
+        <Footer />
       </div>
     );
   };
