@@ -1,4 +1,3 @@
-import maitLogo from "../assets/MAIT_LOGO_FULL.png";
 function About() {
   return (
     <>
@@ -99,11 +98,7 @@ function About() {
             style={{ backgroundColor: "#012340" }}
             className="p-3.5 flex justify-center"
           >
-            <img
-              className="h-40 bg-center"
-              src={maitLogo}
-              alt=""
-            />
+            <img className="h-40 bg-center" src={maitLogo} alt="" />
           </div>
           {/* Subsection: Introduction to MAIT */}
           <div className="py-3">
