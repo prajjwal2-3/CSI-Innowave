@@ -10,10 +10,18 @@
 
 .event-card {
     flex: 0 0 auto;
-    width: 30%; /* Decrease the width of each card by 50% */
-    /*height: 70%;*/
+    width: 30%; /* Default width for larger screens */
 }
 
+@media (max-width: 768px) {
+    .event-card {
+        width: 100%; /* Set width to 100% for small screens */
+    }
+
+    .events-scroll-container {
+        animation-duration: 10s; /* Adjust the duration for small screens */
+    }
+}
 
 @keyframes scrollAnimation {
     0% {
