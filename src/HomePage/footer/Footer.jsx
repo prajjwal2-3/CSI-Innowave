@@ -11,7 +11,7 @@ const Footer = () => {
           <p className="w-full md:w-2/3 text-gray-400">
             Visit us in college hours or email us by clicking Contact Us
           </p>
-          <div className="w-44 pt-6 md:pt-0">
+          <div className="w-44 pt-6 mb-10 md:pt-0">
             <a
               href="mailto:yg232004@gmail.com"
               className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center cursor-pointer"
@@ -26,7 +26,7 @@ const Footer = () => {
               maxWidth: "100%",
               overflow: "hidden",
               color: "red",
-              width: "500px",
+              width: "100%",
               height: "500px",
             }}
           >

@@ -20,11 +20,11 @@ const Hero = () => {
 
   return (
     <div className="bg-gray-700 w-full h-1/4">
-      <section className="bg-black bg-opacity-30  py-10 px-40">
+      <section className="bg-black bg-opacity-30 px-auto lg:py-10 lg:px-40">
         <header className="intro ">
           <div className="intro-slideshow ">
             <img
-              className="w-full h-full md:w-[75rem] md:h-[40rem]"
+              className="mx-auto w-11/12 h-7/12 md:w-[75rem] md:h-[40rem] "
               src={images[currentImage]}
               alt={`Slide ${currentImage + 1}`}
             />
