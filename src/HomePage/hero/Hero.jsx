@@ -24,7 +24,7 @@ const Hero = () => {
         <header className="intro ">
           <div className="intro-slideshow ">
             <img
-              className="mx-auto w-11/12 h-7/12 md:w-[75rem] md:h-[40rem] "
+              className="mx-auto w-11/12 h-7/12 md:h-[40rem] "
               src={images[currentImage]}
               alt={`Slide ${currentImage + 1}`}
             />
