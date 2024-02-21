@@ -8,7 +8,7 @@ const Team = () => {
         <p className="text-white"></p>
       </section>
       <section className="flex justify-center items-center">
-        <div className="flex flex-col m-5 md:grid lg:grid-cols-4 md:grid-cols-2 gap-4 font-semibold font-serif">
+        <div className="flex flex-col m-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-4 font-semibold font-serif">
           <div className="text-center">
             <div className="card rounded-md bg-white">
               <img
@@ -112,6 +112,103 @@ const Team = () => {
               </p>
               <p className="text-black">Photography Head</p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center">
+          <div className="card rounded-md w-11/12 mx-auto text-xl font-semibold bg-white">
+            <h2 className="text-red-800 font-serif font-bold text-4xl">
+              Technical Executives
+            </h2>
+            <p className="text-black">Joyal Jijo</p>
+            <p className="text-black">Vrishank Sharma</p>
+            <p className="text-black">Naman Jain</p>
+            <p className="text-black">Devesh Tuteja</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
+            <h2 className="text-red-800 font-serif font-bold text-4xl">
+              Research and Development Executives
+            </h2>
+            <p className="text-black">Mridul </p>
+            <p className="text-black">Ravi Kumar</p>
+            <p className="text-black">Nalin Khanna </p>
+            <p className="text-black">Vansh Maheshwari </p>
+            <p className="text-black">Pratham Tyagi</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
+            <h2 className="text-red-800 font-serif font-bold text-4xl">
+              Public Relations Executives
+            </h2>
+            <p className="text-black">Naman Mangla</p>
+            <p className="text-black">MD AZAM SIDDIQUI</p>
+            <p className="text-black">Itisha</p>
+            <p className="text-black">Moksh Gupta</p>
+            <p className="text-black">Tanishq Sethi</p>
+            <p className="text-black">Dhruv Goel</p>
+            <p className="text-black">Anshika Chaubey</p>
+            <p className="text-black">Mukund Aggarwal</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
+            <h2 className="text-red-800 font-serif font-bold text-4xl">
+              Photography Executives
+            </h2>
+            <p className="text-black">Manik gulati</p>
+            <p className="text-black">Mayank sharma</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
+            <h2 className="text-red-800 font-serif font-bold text-4xl">
+              Event Management Executives
+            </h2>
+            <p className="text-black">Tinish</p>
+            <p className="text-black">Samya Goel</p>
+            <p className="text-black">Naveen Verma</p>
+            <p className="text-black">Shashwat Shankar</p>
+            <p className="text-black">Lakshay Sharma </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
+            <h2 className="text-red-800 font-serif font-bold text-4xl">
+              Content Executives
+            </h2>
+            <p className="text-black">Sarthak Rawat</p>
+            <p className="text-black">Aryan Dutta</p>
+            <p className="text-black">Yash Phalaswal</p>
+            <p className="text-black">Dev Aggarwal</p>
+            <p className="text-black">Ashish jain</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
+            <h2 className="text-red-800 font-serif font-bold text-4xl">
+              Content Executives
+            </h2>
+            <p className="text-black">Sarthak Rawat</p>
+            <p className="text-black">Aryan Dutta</p>
+            <p className="text-black">Yash Phalaswal</p>
+            <p className="text-black">Dev Aggarwal</p>
+            <p className="text-black">Ashish jain</p>
           </div>
         </div>
       </section>
