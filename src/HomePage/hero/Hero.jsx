@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <div className="bg-gray-700 w-full h-1/4">
-      <section className="bg-black bg-opacity-30 px-auto lg:py-10 lg:px-40">
+      <section className="bg-black px-auto lg:py-10 lg:px-40">
         <header className="intro ">
           <div className="intro-slideshow ">
             <img
