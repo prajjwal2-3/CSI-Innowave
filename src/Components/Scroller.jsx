@@ -17,7 +17,7 @@ const Scroller = () => {
                         <img
                             src={event.posterLink}
                             alt={event.title}
-                            className="w-full h-30 object-cover mb-4 rounded-md sm:h-auto" // Responsive height for mobile
+                            className="mobile-card w-full h-30 object-cover mb-4 rounded-md sm:h-auto" // Responsive height for mobile
                         />
                         {/* Conditional rendering for description on larger screens */}
                         <div className="hidden sm:block"> {/* Hide on small screens */}
