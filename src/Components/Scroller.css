@@ -1,5 +1,4 @@
 .events-container {
-    overflow: hidden;
     width: 100%; /* Fill the width of the screen */
 }
 
@@ -13,14 +12,28 @@
     width: 30%; /* Default width for larger screens */
 }
 
+/*@media (max-width: 768px) {*/
+/*    .event-card {*/
+/*        width: 100%; !* Set width to 100% for small screens *!*/
+/*    }*/
+
+/*    .events-scroll-container {*/
+/*        animation-duration: 5s; !* Adjust the duration for small screens *!*/
+/*    }*/
+/*}*/
+
 @media (max-width: 768px) {
-    .event-card {
-        width: 100%; /* Set width to 100% for small screens */
+
+    .mobile-card{
+        height: 40vh;
     }
 
-    .events-scroll-container {
-        animation-duration: 10s; /* Adjust the duration for small screens */
+    .events-scroll-container{
+        width: 220%;
+        animation: scrollAnimation linear infinite;
+        animation-duration: 15s;
     }
+
 }
 
 @keyframes scrollAnimation {
