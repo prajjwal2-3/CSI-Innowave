@@ -1,5 +1,3 @@
-import React from "react";
-
 const Team = () => {
   return (
     <div className="bg-black  w-screen from-blue-500 to-purple-500">

@@ -1,4 +1,3 @@
-import React from "react";
 import eventData from "./EventData";
 
 const Events = () => {
