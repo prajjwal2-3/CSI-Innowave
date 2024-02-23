@@ -1,4 +1,3 @@
-import React from "react";
 import eventData from "../Events/EventData.jsx";
 import "./Scroller.css"; // Import the CSS file for your animations
 

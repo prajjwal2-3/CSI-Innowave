@@ -70,7 +70,7 @@ const NavBar = () => {
               } lg:flex lg:items-center lg:w-auto`}
               id="mobile-menu-2"
             >
-              <ul class="flex flex-col font-semibold mt-4 text-2xl lg:flex-row lg:space-x-8 lg:mt-0">
+              <ul className="flex flex-col font-semibold mt-4 text-2xl lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <Link
                     to="/"

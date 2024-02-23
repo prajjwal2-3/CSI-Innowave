@@ -1,11 +1,10 @@
-import React from "react";
 import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="flex flex-col">
       <div className="flex mt-12 mb-12 flex-row justify-between">
-        <div class="flex flex-row space-x-8 mx-auto items-center justify-between">
+        <div className="flex flex-row space-x-8 mx-auto items-center justify-between">
           <a
             href="https://www.linkedin.com/company/csi-innowave/"
             className="cursor-pointer"
@@ -26,8 +25,8 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <hr class="border-gray-600" />
-      <p class="w-full text-center my-12 text-gray-600">
+      <hr className="border-gray-600" />
+      <p className="w-full text-center my-12 text-gray-600">
         Copyright © 2024 CSI-Innowave
       </p>
     </div>

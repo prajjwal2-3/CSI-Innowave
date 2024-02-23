@@ -1,4 +1,3 @@
-import React from "react";
 import galleryData from "./GalleryData.jsx"; // Import your gallery data
 
 const Gallery = () => {
