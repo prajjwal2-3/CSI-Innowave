@@ -5,7 +5,7 @@ const Team = () => {
         <h1 className="text-white text-5xl font-bold">Our Team</h1>
         <p className="text-white"></p>
       </section>
-      <div className="text-center mx-auto w-[25%]">
+      <div className="text-center mx-10 md:mx-auto w-auto md:w-[25%]">
         <div className="card rounded-md bg-white">
           <img
             src="https://media.licdn.com/dms/image/C5603AQF67W3HTB1LfA/profile-displayphoto-shrink_800_800/0/1640103425941?e=1714003200&v=beta&t=JTuRDEHqO9d-HgIv6aOW6KX9Be1xts1bJaPcUh-X51o"

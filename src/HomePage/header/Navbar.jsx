@@ -73,6 +73,7 @@ const NavBar = () => {
               <ul className="flex flex-col font-semibold mt-4 text-2xl lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <Link
+                    onClick={toggleMobileMenu}
                     to="/"
                     class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                     aria-current="page"
@@ -82,6 +83,7 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link
+                    onClick={toggleMobileMenu}
                     to="/aboutus"
                     class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                   >
@@ -90,6 +92,7 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link
+                    onClick={toggleMobileMenu}
                     to="/team"
                     class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                   >
@@ -98,6 +101,7 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link
+                    onClick={toggleMobileMenu}
                     to="/events"
                     class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                   >
@@ -106,6 +110,7 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link
+                    onClick={toggleMobileMenu}
                     to="/gallery"
                     class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                   >

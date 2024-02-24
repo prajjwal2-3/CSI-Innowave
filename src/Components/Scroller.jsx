@@ -28,9 +28,11 @@ const Scroller = () => {
                 />
               </Link>
               <div className="hidden sm:block">
-                <h3 className="text-black text-lg font-bold mb-2">
-                  {event.title}
-                </h3>
+                <Link to={`/events/${event.id}`}>
+                  <h3 className="text-black text-lg font-bold mb-2">
+                    {event.title}
+                  </h3>
+                </Link>
                 <p className="text-gray-500 mb-4">{event.shortDescription}</p>
                 <p className="text-gray-500">{event.date}</p>
               </div>
