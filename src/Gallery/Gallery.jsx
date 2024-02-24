@@ -2,7 +2,7 @@ import galleryData from "./GalleryData.jsx"; // Import your gallery data
 
 const Gallery = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid cols-3 gap-4 m-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 m-5">
             {galleryData.map((image) => (
                 <div
                     key={image.title}
@@ -11,7 +11,7 @@ const Gallery = () => {
                     <img
                         src={image.imageLink}
                         alt={image.title}
-                        className="w-full h-full object-cover mb-4 rounded-md"
+                        className="w-full h-full  mb-4 rounded-md object-contain"
                     />
                 </div>
             ))}
