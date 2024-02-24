@@ -2,7 +2,7 @@ const Team = () => {
   return (
     <div className="bg-black  w-screen from-blue-500 to-purple-500">
       <section className="text-center py-5">
-        <h1 className="text-white text-4xl font-bold">Our Team</h1>
+        <h1 className="text-white text-5xl font-bold">Our Team</h1>
         <p className="text-white"></p>
       </section>
       <section className="flex justify-center items-center">
@@ -17,7 +17,7 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Saksham Jain
               </p>
-              <p className="text-black">Chairperson</p>
+              <p className="text-red-800 text-xl">Chairperson</p>
             </div>
           </div>
           <div className="text-center">
@@ -30,7 +30,7 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Vidhi Jain
               </p>
-              <p className="text-black">Vice-Chairperson</p>
+              <p className="text-red-800 text-xl">Vice-Chairperson</p>
             </div>
           </div>
           <div className="text-center">
@@ -43,7 +43,7 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Yash Gupta
               </p>
-              <p className="text-black">Technical Head</p>
+              <p className="text-red-800 text-xl">Technical Head</p>
             </div>
           </div>
           <div className="text-center">
@@ -56,7 +56,7 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Prateek Agarwal
               </p>
-              <p className="text-black">Research & Development Head</p>
+              <p className="text-red-800 text-xl">R & D Head</p>
             </div>
           </div>
           <div className="text-center">
@@ -69,7 +69,7 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Saksham Agarwal
               </p>
-              <p className="text-black">Content Head</p>
+              <p className="text-red-800 text-xl">Content Head</p>
             </div>
           </div>
           <div className="text-center">
@@ -82,7 +82,7 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Aryan Goyal
               </p>
-              <p className="text-black">Public Relations Head</p>
+              <p className="text-red-800 text-xl">Public Relations Head</p>
             </div>
           </div>
           <div className="text-center">
@@ -95,7 +95,7 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Vibhor Gupta
               </p>
-              <p className="text-black">Event Management Head</p>
+              <p className="text-red-800 text-xl">Event Management Head</p>
             </div>
           </div>
           <div className="text-center">
@@ -108,15 +108,15 @@ const Team = () => {
               <p className="text-black font-serif font-bold text-2xl">
                 Varun Gautam
               </p>
-              <p className="text-black">Photography Head</p>
+              <p className="text-red-800 text-xl">Photography Head</p>
             </div>
           </div>
         </div>
       </section>
       <section>
         <div className="text-center">
-          <div className="card rounded-md w-11/12 mx-auto text-xl font-semibold bg-white">
-            <h2 className="text-red-800 font-serif font-bold text-4xl">
+          <div className="card rounded-md w-11/12 mx-auto text-xl font-semibold bg-white p-1">
+            <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
               Technical Executives
             </h2>
             <p className="text-black">Joyal Jijo</p>
@@ -128,8 +128,8 @@ const Team = () => {
       </section>
       <section>
         <div className="text-center">
-          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
-            <h2 className="text-red-800 font-serif font-bold text-4xl">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+            <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
               Research and Development Executives
             </h2>
             <p className="text-black">Mridul </p>
@@ -142,12 +142,12 @@ const Team = () => {
       </section>
       <section>
         <div className="text-center">
-          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
-            <h2 className="text-red-800 font-serif font-bold text-4xl">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+            <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
               Public Relations Executives
             </h2>
             <p className="text-black">Naman Mangla</p>
-            <p className="text-black">MD AZAM SIDDIQUI</p>
+            <p className="text-black">MD Azam Siddiqui</p>
             <p className="text-black">Itisha</p>
             <p className="text-black">Moksh Gupta</p>
             <p className="text-black">Tanishq Sethi</p>
@@ -159,8 +159,8 @@ const Team = () => {
       </section>
       <section>
         <div className="text-center">
-          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
-            <h2 className="text-red-800 font-serif font-bold text-4xl">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+            <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
               Photography Executives
             </h2>
             <p className="text-black">Manik gulati</p>
@@ -170,8 +170,8 @@ const Team = () => {
       </section>
       <section>
         <div className="text-center">
-          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
-            <h2 className="text-red-800 font-serif font-bold text-4xl">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+            <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
               Event Management Executives
             </h2>
             <p className="text-black">Tinish</p>
@@ -184,8 +184,8 @@ const Team = () => {
       </section>
       <section>
         <div className="text-center">
-          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
-            <h2 className="text-red-800 font-serif font-bold text-4xl">
+          <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+            <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
               Content Executives
             </h2>
             <p className="text-black">Sarthak Rawat</p>
@@ -200,13 +200,20 @@ const Team = () => {
         <div className="text-center">
           <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
             <h2 className="text-red-800 font-serif font-bold text-4xl">
-              Content Executives
+              Coordinators
             </h2>
-            <p className="text-black">Sarthak Rawat</p>
-            <p className="text-black">Aryan Dutta</p>
-            <p className="text-black">Yash Phalaswal</p>
-            <p className="text-black">Dev Aggarwal</p>
-            <p className="text-black">Ashish jain</p>
+            <p className="text-black">Parth Goel</p>
+            <p className="text-black">Vansh Singla</p>
+            <p className="text-black">Radhika Garg</p>
+            <p className="text-black">Jitendra Kumar Singh</p>
+            <p className="text-black">Nikhil Hatwal</p>
+            <p className="text-black">Muskan</p>
+            <p className="text-black">Komal</p>
+            <p className="text-black">Vishank Bhardwaj</p>
+            <p className="text-black">Parthsaarthie Sharma</p>
+            <p className="text-black">Akshat Jain</p>
+            <p className="text-black">Anuj Kumar</p>
+            <p className="text-black">Ayush Sharma</p>
           </div>
         </div>
       </section>
