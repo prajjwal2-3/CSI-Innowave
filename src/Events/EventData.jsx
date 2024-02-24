@@ -7,7 +7,7 @@ const eventData = [
       "CSI-INNOWAVE and MetaSpace collaborated to host a gaming station at the Innovation Mela 2024 on February 22nd, 2024.",
     date: "2024-02-22",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516572/CSI/events/wuxkcatxnbanniatc99v.jpg",
+      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708793787/CSI/events/hcgqsvmf8cisdrwufa3m.jpg",
     formLink: "",
   },
   {
