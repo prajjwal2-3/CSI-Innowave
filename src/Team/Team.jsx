@@ -5,6 +5,22 @@ const Team = () => {
         <h1 className="text-white text-5xl font-bold">Our Team</h1>
         <p className="text-white"></p>
       </section>
+      <div className="text-center mx-auto w-[25%]">
+        <div className="card rounded-md bg-white">
+          <img
+            src="https://media.licdn.com/dms/image/C5603AQF67W3HTB1LfA/profile-displayphoto-shrink_800_800/0/1640103425941?e=1714003200&v=beta&t=JTuRDEHqO9d-HgIv6aOW6KX9Be1xts1bJaPcUh-X51o"
+            alt="Vinay Kumar Saini"
+            className="card-image p-10 rounded-full"
+          />
+          <p className="text-black font-serif font-bold text-2xl">
+            Vinay Kumar Saini
+          </p>
+          <p className="text-red-800 text-xl font-semibold font-serif">
+            Faculty Coordinator @ CSI-Innowave <br /> Head of Department (AI &
+            DS)
+          </p>
+        </div>
+      </div>
       <section className="flex justify-center items-center">
         <div className="flex flex-col m-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-4 font-semibold font-serif">
           <div className="text-center">
