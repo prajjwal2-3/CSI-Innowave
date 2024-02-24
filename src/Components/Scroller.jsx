@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import eventData from "../Events/EventData.jsx";
+import { Link } from "react-router-dom";
 
 const Scroller = () => {
   return (
@@ -19,11 +20,13 @@ const Scroller = () => {
               transition={{ duration: 0.5, ease: "easeInOut" }}
               className="event-card min-w-40 md:min-w-96 bg-white p-4 shadow-md rounded-sm m-2"
             >
-              <img
-                src={event.posterLink}
-                alt={event.title}
-                className="mobile-card w-full h-30 object-cover mb-4 rounded-md sm:h-auto"
-              />
+              <Link to={`/events/${event.id}`}>
+                <img
+                  src={event.posterLink}
+                  alt={event.title}
+                  className="mobile-card w-full h-full md:h-30 object-cover mb-4 rounded-md sm:h-auto"
+                />
+              </Link>
               <div className="hidden sm:block">
                 <h3 className="text-black text-lg font-bold mb-2">
                   {event.title}

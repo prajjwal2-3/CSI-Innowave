@@ -6,6 +6,7 @@ import Team from "../Team/Team";
 import About from "../About/About";
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 import Footer from "./Footer";
+import EventInDetail from "../Events/EventInDetail";
 
 const Body = () => {
   const AppLayout = () => {
@@ -41,6 +42,10 @@ const Body = () => {
         {
           path: "/team",
           element: <Team />,
+        },
+        {
+          path: "/events/:id",
+          element: <EventInDetail />,
         },
       ],
     },
