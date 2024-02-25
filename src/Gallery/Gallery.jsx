@@ -6,7 +6,7 @@ const Gallery = () => {
       {galleryData.map((image) => (
         <div
           key={image.title}
-          className="bg-white p-1 shadow-md rounded-sm m-2 h-96"
+          className="bg-[#B4B4B8] p-1 shadow-md rounded-sm m-2 h-96"
         >
           <img
             src={image.imageLink}

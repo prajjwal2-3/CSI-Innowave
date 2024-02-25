@@ -5,12 +5,11 @@ import Footer from "../HomePage/footer/Footer";
 import Scroller from "./Scroller.jsx";
 const Home = () => {
   return (
-    <div className="bg-slate-700">
+    <div className="bg-[#070F2B]">
       <Hero />
       <Aboutus />
-        <Scroller/>
+      <Scroller />
       <Footer />
-
     </div>
   );
 };

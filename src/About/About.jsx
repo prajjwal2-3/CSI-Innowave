@@ -10,16 +10,16 @@ function About() {
   }, []);
 
   return (
-    <>
+    <div className="bg-[#0B192E]">
       {/* Main Content Container */}
-      <motion.div className="flex-col items-center justify-center w-screen md:px-40">
+      <motion.div className="flex-col font-serif items-center  justify-center w-screen md:px-40">
         {/* Section: About CSI */}
         <motion.div
-          className="p-1 m-5 border-y-2 border-black flex mx-auto items-center justify-center animate"
+          className="p-6 border-y-2 border-black flex px-auto items-center justify-center animate"
           initial={{ opacity: 0, y: 50 }}
           animate={controls}
         >
-          <h1 className="text-center font-bold text-5xl">ABOUT CSI</h1>
+          <h1 className="text-center font-bold  text-5xl">ABOUT CSI</h1>
         </motion.div>
 
         <motion.div
@@ -131,7 +131,7 @@ function About() {
           </div>
         </div>
       </motion.div>
-    </>
+    </div>
   );
 }
 

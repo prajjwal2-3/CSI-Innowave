@@ -16,8 +16,7 @@ const Team = () => {
             Dr.Vinay Kumar Saini
           </p>
           <p className="text-red-800 text-xl font-semibold font-serif">
-            Faculty Coordinator @ CSI-Innowave <br /> Head of Department (AI &
-            DS)
+            Faculty Coordinator <br /> HOD (AI & DS)
           </p>
         </div>
       </div>
