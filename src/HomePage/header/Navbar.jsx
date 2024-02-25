@@ -27,6 +27,11 @@ const NavBar = () => {
     };
   }, [isMobileMenuOpen]);
 
+  const handleMenuItemClick = () => {
+    // Close the mobile menu when a menu item is clicked
+    setIsMobileMenuOpen(false);
+  };
+
   return (
       <header>
         <nav className="border-gray-200 px-4 lg:px-6 py-2.5 bg-slate-100">
@@ -46,7 +51,9 @@ const NavBar = () => {
               <button
                   onClick={toggleMobileMenu}
                   type="button"
-                  className="lg:hidden inline-flex items-center p-2 text-sm rounded-lg focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600 toggle-button"
+                  className={`lg:hidden inline-flex items-center p-2 text-sm rounded-lg focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600 toggle-button ${
+                      isMobileMenuOpen ? "open" : ""
+                  }`}
                   aria-controls="mobile-menu-2"
                   aria-expanded={isMobileMenuOpen ? "true" : "false"}
               >
@@ -93,8 +100,9 @@ const NavBar = () => {
                   <li>
                     <Link
                         to="/"
-                        class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                         aria-current="page"
+                        onClick={handleMenuItemClick}
                     >
                       Home
                     </Link>
@@ -102,7 +110,8 @@ const NavBar = () => {
                   <li>
                     <Link
                         to="/aboutus"
-                        class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        onClick={handleMenuItemClick}
                     >
                       About Us
                     </Link>
@@ -110,7 +119,8 @@ const NavBar = () => {
                   <li>
                     <Link
                         to="/team"
-                        class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        onClick={handleMenuItemClick}
                     >
                       Our Team
                     </Link>
@@ -118,7 +128,8 @@ const NavBar = () => {
                   <li>
                     <Link
                         to="/events"
-                        class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        onClick={handleMenuItemClick}
                     >
                       Events
                     </Link>
@@ -126,13 +137,13 @@ const NavBar = () => {
                   <li>
                     <Link
                         to="/gallery"
-                        class="block py-2 pr-4 pl-3  border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        onClick={handleMenuItemClick}
                     >
                       Gallery
                     </Link>
                   </li>
                 </ul>
-
               </div>
             </div>
           </div>
