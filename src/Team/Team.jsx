@@ -13,7 +13,7 @@ const Team = () => {
             className="card-image p-10 rounded-full"
           />
           <p className="text-black font-serif font-bold text-2xl">
-            Vinay Kumar Saini
+            Dr.Vinay Kumar Saini
           </p>
           <p className="text-red-800 text-xl font-semibold font-serif">
             Faculty Coordinator @ CSI-Innowave <br /> Head of Department (AI &

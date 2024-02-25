@@ -45,7 +45,6 @@ function About() {
             <h3 className="font-bold underline mb-1.5">VISION</h3>
             <p className="text-justify">
               CSI envisions a future where innovation, education, and
-              {/* eslint-disable-next-line react/no-unescaped-entities */}
               sustainable practices converge to elevate India's trajectory
               towards progress.
             </p>
