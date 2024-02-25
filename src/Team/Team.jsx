@@ -8,7 +8,7 @@ const Team = () => {
       <div className="text-center mx-10 md:mx-auto w-auto md:w-[25%]">
         <div className="card rounded-md bg-white">
           <img
-            src="https://media.licdn.com/dms/image/C5603AQF67W3HTB1LfA/profile-displayphoto-shrink_800_800/0/1640103425941?e=1714003200&v=beta&t=JTuRDEHqO9d-HgIv6aOW6KX9Be1xts1bJaPcUh-X51o"
+            src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708853769/CSI/team/av7y7mtfogtrdsdzaier.jpg"
             alt="Vinay Kumar Saini"
             className="card-image p-10 rounded-full"
           />
@@ -227,7 +227,7 @@ const Team = () => {
             <p className="text-black">Komal</p>
             <p className="text-black">Vishank Bhardwaj</p>
             <p className="text-black">Parthsaarthie Sharma</p>
-            <p className="text-black">Akshat Jain</p>
+
             <p className="text-black">Anuj Kumar</p>
             <p className="text-black">Ayush Sharma</p>
           </div>
