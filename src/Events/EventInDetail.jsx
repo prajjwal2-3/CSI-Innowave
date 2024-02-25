@@ -11,7 +11,7 @@ const EventInDetail = () => {
   }
 
   return (
-    <div className="bg-white text-black m-10 flex  justify-center text-center">
+    <div className="bg-white text-black m-10 flex flex-col md:flex-row justify-center text-center">
       <img
         src={event.posterLink}
         alt={event.title}
