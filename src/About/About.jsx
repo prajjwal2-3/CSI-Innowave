@@ -1,14 +1,32 @@
+import { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+
 function About() {
+  const controls = useAnimation();
+
+  useEffect(() => {
+    // Animation code here
+    controls.start({ opacity: 1, y: 0, transition: { staggerChildren: 0.2 } });
+  }, []);
+
   return (
     <>
       {/* Main Content Container */}
-      <div className="flex-col items-center justify-center w-screen md:px-40">
+      <motion.div className="flex-col items-center justify-center w-screen md:px-40">
         {/* Section: About CSI */}
-        <div className="p-1 m-5 border-y-2 border-black flex mx-auto items-center justify-center">
+        <motion.div
+          className="p-1 m-5 border-y-2 border-black flex mx-auto items-center justify-center animate"
+          initial={{ opacity: 0, y: 50 }}
+          animate={controls}
+        >
           <h1 className="text-center font-bold text-5xl">ABOUT CSI</h1>
-        </div>
-        <div className="flex-col space-y-7 text-xl">
-          {/* Subsection: Introduction to CSI */}
+        </motion.div>
+
+        <motion.div
+          className="flex-col mx-10 space-y-7 text-xl animate"
+          initial={{ opacity: 0, y: 50 }}
+          animate={controls}
+        >
           <div className="mt-5">
             <p className="text-justify">
               Established in 2009, CSI – The Computer Science Society of India
@@ -46,7 +64,7 @@ function About() {
             </p>
           </div>
           {/* Subsection: Objectives */}
-          <div>
+          <motion.div>
             <h3 className="font-bold underline mb-1.5">OBJECTIVES</h3>
             <p className="text-justify">
               To cultivate students’ interest in the field of management or
@@ -85,14 +103,14 @@ function About() {
                 innovation but also ensures sustainable progress.
               </li>
             </ul>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
         {/* Section: About MAIT */}
-        <div className="p-1 m-5 border-y-2 border-black flex mx-auto items-center justify-center">
+        <div className="p-1 m-5 border-y-2 border-black flex mx-10 items-center justify-center">
           <h1 className="text-center font-bold text-5xl mt-5">ABOUT MATES</h1>
         </div>
-        <div className="flex flex-col items-center sm:flex-row">
+        <div className="flex flex-col mx-10 items-center sm:flex-row">
           {/* Subsection: MAIT Logo and Background Color */}
           <div className="w-full">
             <img
@@ -113,7 +131,7 @@ function About() {
             the society and its people.
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }
