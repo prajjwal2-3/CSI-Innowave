@@ -11,11 +11,17 @@ const EventInDetail = () => {
   }
 
   return (
-    <div className="bg-white text-black m-10 flex flex-col justify-center text-center">
-      <img src={event.posterLink} alt={event.title} />
-      <h2 className="text-3xl font-bold">{event.title}</h2>
+    <div className="bg-white text-black m-10 flex  justify-center text-center">
+      <img
+        src={event.posterLink}
+        alt={event.title}
+        className="w-[50%] mx-auto"
+      />
+      <div className="text-center my-auto">
+        <h2 className="text-3xl font-bold">{event.title}</h2>
 
-      <p>{event.description}</p>
+        <p>{event.description}</p>
+      </div>
     </div>
   );
 };
