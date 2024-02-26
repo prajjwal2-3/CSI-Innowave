@@ -7,7 +7,6 @@ const Events = () => {
   const [showImageSlider, setShowImageSlider] = useState(false);
 
   const handleImageClick = () => {
-    // Toggle the state to show/hide the image slider
     setShowImageSlider(!showImageSlider);
   };
 
@@ -20,7 +19,9 @@ const Events = () => {
         <div className="flex flex-col justify-center z-20 mt-4 items-center h-screen">
           {!showImageSlider ? (
             <>
-              <div className="text-9xl font-bold ">Events</div>
+              <div className="text-6xl md:text-7xl lg:text-9xl font-bold ">
+                Events
+              </div>
               <div>
                 <img
                   className="mx-auto w-10 cursor-pointer transition duration-300 z-50 ease-in-out "

@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import { BackgroundGradient } from "../Components/ui/background-gradient";
 
 const Team = () => {
-
   const variants = {
     initial: {
       opacity: 0.8,
@@ -18,21 +18,43 @@ const Team = () => {
   };
 
   return (
-    <motion.div  className="bg-black w-screen from-blue-500 to-purple-500" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}>
-
-     
+    <motion.div
+      className="bg-black w-screen from-blue-500 to-purple-500"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="bg-black  w-screen from-blue-500 to-purple-500">
-
-        <motion.section className="text-center py-5" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }} >
+        <motion.section
+          className="text-center py-5"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
           <section className="text-center py-5">
-              <h1 className="text-white text-5xl font-bold">Our Team</h1>
-              <p className="text-white"></p>
-            </section>
+            <h1 className="text-white text-5xl font-bold">Our Team</h1>
+            <p className="text-white"></p>
+          </section>
         </motion.section>
 
-        <motion.div className="text-center mx-10 md:mx-auto w-auto md:w-[25%]" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }}>
-          <motion.div className="card rounded-md bg-white" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, delay: 0.6 }}>
-            <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+        <motion.div
+          className="text-center mx-10 md:mx-auto w-auto md:w-[25%]"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <motion.div
+            className="card rounded-md bg-white"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
+            <motion.div
+              className="card rounded-md bg-white"
+              variants={variants}
+              whileHover="hover"
+            >
               <div className="text-center mx-10 md:mx-auto w-full md:w-[100%]">
                 <div className="card rounded-md bg-white">
                   <img
@@ -44,38 +66,49 @@ const Team = () => {
                     Dr.Vinay Kumar Saini
                   </p>
                   <p className="text-red-800 text-xl font-semibold font-serif">
-                    Faculty Coordinator @ CSI-Innowave <br /> Head of Department (AI &
-                    DS)
+                    Faculty Coordinator @ CSI-Innowave <br /> Head of Department
+                    (AI & DS)
                   </p>
                 </div>
               </div>
             </motion.div>
           </motion.div>
         </motion.div>
-        
-      
-        <motion.section  className="flex justify-center items-center" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.8 }} >
+
+        <motion.section
+          className="flex justify-center items-center"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
+        >
           <section className="flex justify-center items-center">
             <div className="flex flex-col m-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-4 font-semibold font-serif">
-            
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
-                      <img
-                        src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708519754/CSI/team/zh8spleoos4ug9cd9c8k.png"
-                        alt="Saksham Jain"
-                        className="card-image p-10"
-                      />
-                      <p className="text-black font-serif font-bold text-2xl">
-                        Saksham Jain
-                      </p>
-                      <p className="text-red-800 text-xl">Chairperson</p>
-                    </div>
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708519754/CSI/team/zh8spleoos4ug9cd9c8k.png"
+                      alt="Saksham Jain"
+                      className="card-image p-10"
+                    />
+                    <p className="text-black font-serif font-bold text-2xl">
+                      Saksham Jain
+                    </p>
+                    <p className="text-red-800 text-xl">Chairperson</p>
+                  </div>
                 </motion.div>
               </div>
-                
+
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708519755/CSI/team/unomztytjlxr9zq6f30i.png"
@@ -91,7 +124,11 @@ const Team = () => {
               </div>
 
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708445514/Portfolio/lhemkdewetpm9yomtvnp.png"
@@ -107,7 +144,11 @@ const Team = () => {
               </div>
 
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708520699/CSI/team/yy8yibctbrlqhlivy3g3.png"
@@ -123,7 +164,11 @@ const Team = () => {
               </div>
 
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/shbwpfk8nxqzoz8grgr5.png"
@@ -139,58 +184,71 @@ const Team = () => {
               </div>
 
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
-                      <img
-                        src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521199/CSI/team/yjeminakwecddvjbogpn.png"
-                        alt="Aryan Goyal"
-                        className="card-image p-10"
-                      />
-                      <p className="text-black font-serif font-bold text-2xl">
-                        Aryan Goyal
-                      </p>
-                      <p className="text-red-800 text-xl">Public Relations Head</p>
-                    </div>
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521199/CSI/team/yjeminakwecddvjbogpn.png"
+                      alt="Aryan Goyal"
+                      className="card-image p-10"
+                    />
+                    <p className="text-black font-serif font-bold text-2xl">
+                      Aryan Goyal
+                    </p>
+                    <p className="text-red-800 text-xl">
+                      Public Relations Head
+                    </p>
+                  </div>
                 </motion.div>
               </div>
 
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
-                      <img
-                        src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/nvo4p52dgjhkiwhdjeby.png"
-                        alt="Vibhor Gupta"
-                        className="card-image p-10"
-                      />
-                      <p className="text-black font-serif font-bold text-2xl">
-                        Vibhor Gupta
-                      </p>
-                      <p className="text-red-800 text-xl">Event Management Head</p>
-                    </div>
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/nvo4p52dgjhkiwhdjeby.png"
+                      alt="Vibhor Gupta"
+                      className="card-image p-10"
+                    />
+                    <p className="text-black font-serif font-bold text-2xl">
+                      Vibhor Gupta
+                    </p>
+                    <p className="text-red-800 text-xl">
+                      Event Management Head
+                    </p>
+                  </div>
                 </motion.div>
               </div>
 
               <div className="text-center">
-                <motion.div className="card rounded-md bg-white" variants={variants} whileHover="hover">
+                <motion.div
+                  className="card rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
                   <div className="card rounded-md bg-white">
-                      <img
-                        src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/uri9pcvpu9vbbn1xcrp8.png"
-                        alt="Varun Gautam"
-                        className="card-image p-10"
-                      />
-                      <p className="text-black font-serif font-bold text-2xl">
-                        Varun Gautam
-                      </p>
-                      <p className="text-red-800 text-xl">Photography Head</p>
-                    </div>
-                  </motion.div>
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/uri9pcvpu9vbbn1xcrp8.png"
+                      alt="Varun Gautam"
+                      className="card-image p-10"
+                    />
+                    <p className="text-black font-serif font-bold text-2xl">
+                      Varun Gautam
+                    </p>
+                    <p className="text-red-800 text-xl">Photography Head</p>
+                  </div>
+                </motion.div>
               </div>
-
             </div>
           </section>
         </motion.section>
-
-
 
         <section>
           <div className="text-center">
@@ -297,7 +355,6 @@ const Team = () => {
           </div>
         </section>
       </div>
-
     </motion.div>
   );
 };

@@ -20,46 +20,45 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="flex  justify-between h-screen mx-auto ">
-      <div className="text-center ">
-        {/* Description Div */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl mt-0 font-sans font-bold mb-4">
-          {eventData[currentIndex].title}
-        </h2>
-        <div className="max-h-[50vh]">
-          {/* Poster Div */}
-          <img
-            src={eventData[currentIndex].posterLink}
-            alt={`Event ${currentIndex + 1}`}
-            className="w-1/2 md:w-1/5 mx-auto"
-          />
-        </div>
-        <Link to={`/events/${eventData[currentIndex]?.id}`}>
-          <button className="bg-slate-700 font-semibold text-white border border-white rounded-full py-2 px-6 my-3 hover:bg-white hover:text-blue-500 transition duration-300">
-            Know More
-          </button>
-        </Link>
-        <p className="my-3 mx-5 text-xl">
-          {eventData[currentIndex].shortDescription}
-        </p>
-        <p className="my3 text-gray-300 text-xl">
-          {eventData[currentIndex].date}
-        </p>
-        <div className="flex justify-center my-3">
-          {/* Left Arrow */}
-          <img
-            src={ArrowLeft}
-            alt="Previous"
-            className="cursor-pointer w-[10%] md:w-[5%] lg:w-[3%] mr-4"
-            onClick={goToPrevSlide}
-          />
-          {/* Right Arrow */}
-          <img
-            src={ArrowRight}
-            alt="Next"
-            className="cursor-pointer w-[10%] md:w-[5%] lg:w-[3%]"
-            onClick={goToNextSlide}
-          />
+    <div className="relative">
+      <div className="flex items-center justify-between h-screen mx-auto relative">
+        {/* Left Arrow */}
+        <img
+          src={ArrowLeft}
+          alt="Previous"
+          className="cursor-pointer fixed left-0 top-1/2 transform -translate-y-1/2 w-[10%] md:w-[5%] lg:w-[3%] ml-4"
+          onClick={goToPrevSlide}
+        />
+
+        <div className="text-center w-full">
+          <div className=" text-center max-h-[50vh]">
+            {/* Poster Div */}
+            <img
+              src={eventData[currentIndex].posterLink}
+              alt={`Event ${currentIndex + 1}`}
+              className="w-1/2 md:w-1/4 mx-auto"
+            />
+          </div>
+          <Link to={`/events/${eventData[currentIndex]?.id}`}>
+            <button className="bg-slate-700 font-semibold text-white border border-white rounded-full py-2 px-6 my-3 hover:bg-white hover:text-blue-500 transition duration-300">
+              Know More
+            </button>
+          </Link>
+          <p className="my-3 mx-5 w-[50%] mx-auto text-center text-xl">
+            {eventData[currentIndex].shortDescription}
+          </p>
+          <p className="my3 text-gray-300 text-xl">
+            {eventData[currentIndex].date}
+          </p>
+          <div className="flex justify-center my-3">
+            {/* Right Arrow */}
+            <img
+              src={ArrowRight}
+              alt="Next"
+              className="cursor-pointer fixed right-0 top-1/2 transform -translate-y-1/2 w-[10%] md:w-[5%] lg:w-[3%] mr-4"
+              onClick={goToNextSlide}
+            />
+          </div>
         </div>
       </div>
     </div>
