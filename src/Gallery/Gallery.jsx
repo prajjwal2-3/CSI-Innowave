@@ -35,7 +35,7 @@ const Gallery = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <section className="text-center py-5">
-            <h1 className="text-white text-5xl font-bold">Photos</h1>
+            <h1 className="text-white text-5xl font-adam font-bold">Photos</h1>
             <p className="text-white"></p>
           </section>
         </motion.section>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
 import React from "react";
 
-export const TextGenerateEffectSmall = ({
+export const TextGenerateEffect = ({
   words,
   className,
 }: {
@@ -20,11 +20,12 @@ export const TextGenerateEffectSmall = ({
         opacity: 1,
       },
       {
-        duration: 1,
+        duration: 5,
         delay: stagger(0.2),
       }
     );
   }, [scope.current]);
+
   const renderWords = () => {
     return (
       <motion.div ref={scope}>
@@ -43,9 +44,9 @@ export const TextGenerateEffectSmall = ({
   };
 
   return (
-    <div className={cn("", className)}>
+    <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className="dark:text-white font-adam text-black text-md leading-snug tracking-wide">
+        <div className="dark:text-white text-black text-5xl leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>

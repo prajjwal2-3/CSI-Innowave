@@ -146,13 +146,13 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li>
-                  <div className="flex flex-row space-x-2 mx-auto hover:text-red-700 items-center justify-between">
+                  <div className="flex flex-row space-x-2 mx-auto mt-3 lg:mt-0 hover:text-red-700 items-center justify-between">
                     <a
                       href="https://www.linkedin.com/company/csi-innowave/"
                       className="cursor-pointer hover:text-red-700"
                     >
                       <FaLinkedin
-                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent "
                         size={30}
                       />
                     </a>
@@ -161,7 +161,7 @@ const NavBar = () => {
                       className="cursor-pointer hover:text-red-700"
                     >
                       <FaInstagram
-                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent"
                         size={30}
                       />
                     </a>
@@ -170,7 +170,7 @@ const NavBar = () => {
                       className="cursor-pointer hover:text-red-700"
                     >
                       <FaYoutube
-                        className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent "
                         size={30}
                       />
                     </a>

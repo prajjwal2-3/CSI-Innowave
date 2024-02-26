@@ -30,7 +30,7 @@ const ImageSlider = () => {
           onClick={goToPrevSlide}
         />
 
-        <div className="text-center w-full">
+        <div className="text-center font-adam w-full">
           <div className=" text-center max-h-[50vh]">
             {/* Poster Div */}
             <img

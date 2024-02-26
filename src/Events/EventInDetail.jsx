@@ -25,7 +25,7 @@ const EventInDetail = () => {
       transition={{ duration: 0.5 }}
     >
       <div
-        className="bg-white text-black m-5 flex items-center flex-col md:flex-row justify-center text-center rounded-lg overflow-hidden"
+        className="bg-white text-black m-5 font-adam flex items-center flex-col md:flex-row justify-center text-center rounded-lg overflow-hidden"
         style={gradientBorderStyle}
       >
         <motion.img
