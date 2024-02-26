@@ -2,12 +2,13 @@ const Footer = () => {
   return (
     <div className="w-full min-h-screen flex items-center justify-center bg-black">
       <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
-        <div className="w-full text-center md:text-left text-7xl font-bold">
+        <div className="w-full text-center md:text-left text-5xl lg:text-5xl font-bold">
           <h1 className="w-full mt-10 md:w-2/3">Get in Touch.</h1>
         </div>
         <div className="flex mt-8 flex-col items-center md:flex-row md:justify-between">
           <p className="text-center md:text-left w-full md:w-2/3  text-gray-400">
-            Visit us in college hours or email us by clicking Contact Us
+            Visit us in college hours or email us by clicking Contact Us <br />
+            Or call us now at +91 9871010872
           </p>
           <div className="w-44 mt-10 md:mt-0 my-auto md:pt-0">
             <a

@@ -44,7 +44,7 @@ const ImageSlider = () => {
               Know More
             </button>
           </Link>
-          <p className="my-3 mx-5 w-[50%] mx-auto text-center text-xl">
+          <p className="my-3  w-[50%] mx-auto text-center text-xl">
             {eventData[currentIndex].shortDescription}
           </p>
           <p className="my3 text-gray-300 text-xl">
