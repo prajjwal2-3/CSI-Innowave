@@ -20,18 +20,18 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen mx-auto ">
+    <div className="flex  justify-between h-screen mx-auto ">
       <div className="text-center ">
         {/* Description Div */}
-        <h2 className="text-4xl font-bold mb-4">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl mt-0 underline font-bold mb-4">
           {eventData[currentIndex].title}
         </h2>
-        <div className="min-h-[50vh]">
+        <div className="max-h-[50vh]">
           {/* Poster Div */}
           <img
             src={eventData[currentIndex].posterLink}
             alt={`Event ${currentIndex + 1}`}
-            className="w-1/4 mx-auto"
+            className="w-1/2 md:w-1/5 mx-auto"
           />
         </div>
         <Link to={`/events/${eventData[currentIndex]?.id}`}>
@@ -39,7 +39,7 @@ const ImageSlider = () => {
             Know More
           </button>
         </Link>
-        <p className="my-3 text-xl">
+        <p className="my-3 mx-5 text-xl">
           {eventData[currentIndex].shortDescription}
         </p>
         <p className="my3 text-xl">Date: {eventData[currentIndex].date}</p>
@@ -48,17 +48,15 @@ const ImageSlider = () => {
           <img
             src={ArrowLeft}
             alt="Previous"
-            className="cursor-pointer mr-4"
+            className="cursor-pointer w-[10%] md:w-[5%] lg:w-[3%] mr-4"
             onClick={goToPrevSlide}
-            style={{ width: "3%" }}
           />
           {/* Right Arrow */}
           <img
             src={ArrowRight}
             alt="Next"
-            className="cursor-pointer"
+            className="cursor-pointer w-[10%] md:w-[5%] lg:w-[3%]"
             onClick={goToNextSlide}
-            style={{ width: "3%" }}
           />
         </div>
       </div>
