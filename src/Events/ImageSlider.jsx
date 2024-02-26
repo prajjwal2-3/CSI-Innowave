@@ -20,10 +20,10 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="flex bg-black justify-between h-screen mx-auto ">
+    <div className="flex  justify-between h-screen mx-auto ">
       <div className="text-center ">
         {/* Description Div */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl mt-0 underline font-bold mb-4">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl mt-0 font-sans font-bold mb-4">
           {eventData[currentIndex].title}
         </h2>
         <div className="max-h-[50vh]">
@@ -35,14 +35,16 @@ const ImageSlider = () => {
           />
         </div>
         <Link to={`/events/${eventData[currentIndex]?.id}`}>
-          <button className="bg-blue-500 text-white border border-white rounded-full py-2 px-6 my-3 hover:bg-white hover:text-blue-500 transition duration-300">
+          <button className="bg-slate-700 font-semibold text-white border border-white rounded-full py-2 px-6 my-3 hover:bg-white hover:text-blue-500 transition duration-300">
             Know More
           </button>
         </Link>
         <p className="my-3 mx-5 text-xl">
           {eventData[currentIndex].shortDescription}
         </p>
-        <p className="my3 text-xl">Date: {eventData[currentIndex].date}</p>
+        <p className="my3 text-gray-300 text-xl">
+          {eventData[currentIndex].date}
+        </p>
         <div className="flex justify-center my-3">
           {/* Left Arrow */}
           <img

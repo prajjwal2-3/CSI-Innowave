@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import galleryData from "../../Gallery/GalleryData";
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
