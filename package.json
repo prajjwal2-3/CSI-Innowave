@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/engine": "^3.2.2",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.2.2",
+    "clsx": "^2.1.0",
     "embla-carousel-react": "^8.0.0-rc22",
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.7.2",
@@ -20,7 +24,9 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.1",
-    "react-spring": "^9.7.3"
+    "react-spring": "^9.7.3",
+    "simplex-noise": "^4.0.1",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.div
-      className="bg-slate-700 mx-4 md:mx-8"
+      className="bg-slate-700"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

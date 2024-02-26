@@ -20,7 +20,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="flex  justify-between h-screen mx-auto ">
+    <div className="flex bg-black justify-between h-screen mx-auto ">
       <div className="text-center ">
         {/* Description Div */}
         <h2 className="text-2xl md:text-3xl lg:text-4xl mt-0 underline font-bold mb-4">
