@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -8,7 +9,6 @@ const NavBar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  // Add an event listener to handle clicks outside the mobile menu
   useEffect(() => {
     const closeMobileMenu = (event) => {
       if (
@@ -48,7 +48,7 @@ const NavBar = () => {
               </Link>
             </div>
             <div className="flex items-center space-x-4 lg:space-x-8">
-              <button
+              <motion.button
                   onClick={toggleMobileMenu}
                   type="button"
                   className={`lg:hidden inline-flex items-center p-2 text-sm rounded-lg focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600 toggle-button ${
@@ -56,15 +56,20 @@ const NavBar = () => {
                   }`}
                   aria-controls="mobile-menu-2"
                   aria-expanded={isMobileMenuOpen ? "true" : "false"}
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
               >
                 <span className="sr-only">Open main menu</span>
                 {isMobileMenuOpen ? (
-                    <svg
+                    <motion.svg
                         className="w-6 h-6"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg"
+                        initial={{ rotate: 0 }}
+                        animate={{ rotate: 180 }}
+                        transition={{ duration: 0.3 }}
                     >
                       <path
                           strokeLinecap="round"
@@ -72,29 +77,35 @@ const NavBar = () => {
                           strokeWidth="2"
                           d="M6 18L18 6M6 6l12 12"
                       />
-                    </svg>
+                    </motion.svg>
                 ) : (
-                    <svg
+                    <motion.svg
                         className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
+                        initial={{ rotate: 0 }}
+                        animate={{ rotate: 180 }}
+                        transition={{ duration: 0.3 }}
                     >
                       <path
                           fillRule="evenodd"
                           d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                           clipRule="evenodd"
                       ></path>
-                    </svg>
+                    </motion.svg>
                 )}
-              </button>
-              <div
+              </motion.button>
+              <motion.div
                   className={`${
                       isMobileMenuOpen
                           ? "absolute mobile-menu bg-white p-2 inset-12  rounded shadow  max-h-72"
                           : "hidden"
                   } lg:flex lg:items-center lg:w-auto`}
                   id="mobile-menu-2"
+                  initial={{ opacity: 0, y: -50 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
               >
                 <ul className="flex flex-col font-semibold mt-4 text-2xl lg:flex-row lg:space-x-8 lg:mt-0">
                   <li>
@@ -144,7 +155,8 @@ const NavBar = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+
+              </motion.div>
             </div>
           </div>
         </nav>
