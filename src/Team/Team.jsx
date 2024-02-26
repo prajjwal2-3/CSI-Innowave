@@ -33,7 +33,9 @@ const Team = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <section className="text-center py-5">
-            <h1 className="text-white text-5xl font-bold">Our Team</h1>
+            <h1 className="text-white text-5xl font-adam font-bold">
+              Our Team
+            </h1>
             <p className="text-white"></p>
           </section>
         </motion.section>
@@ -55,19 +57,18 @@ const Team = () => {
               variants={variants}
               whileHover="hover"
             >
-              <div className="text-center mx-10 md:mx-auto w-full md:w-[100%]">
+              <div className="text-center mx-auto md:mx-auto w-full md:w-[100%]">
                 <div className="card rounded-md bg-white">
                   <img
                     src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708853769/CSI/team/av7y7mtfogtrdsdzaier.jpg"
                     alt="Vinay Kumar Saini"
-                    className="card-image p-10 rounded-full"
+                    className="card-image p-2 rounded-full"
                   />
-                  <p className="text-black font-serif font-bold text-2xl">
+                  <p className="text-black font-adam font-bold text-2xl">
                     Dr.Vinay Kumar Saini
                   </p>
-                  <p className="text-red-800 text-xl font-semibold font-serif">
-                    Faculty Coordinator @ CSI-Innowave <br /> Head of Department
-                    (AI & DS)
+                  <p className="text-red-800 text-xl pb-2 font-semibold font-adam">
+                    Faculty Coordinator <br /> HOD (AI & DS)
                   </p>
                 </div>
               </div>
@@ -82,7 +83,7 @@ const Team = () => {
           transition={{ duration: 0.5, delay: 0.8 }}
         >
           <section className="flex justify-center items-center">
-            <div className="flex flex-col m-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-4 font-semibold font-serif">
+            <div className="flex flex-col m-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-10 font-semibold font-adam">
               <div className="text-center">
                 <motion.div
                   className="card rounded-md bg-white"
@@ -93,12 +94,12 @@ const Team = () => {
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708519754/CSI/team/zh8spleoos4ug9cd9c8k.png"
                       alt="Saksham Jain"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black font-adam font-bold text-2xl">
                       Saksham Jain
                     </p>
-                    <p className="text-red-800 text-xl">Chairperson</p>
+                    <p className="text-red-800 text-xl pb-2">Chairperson</p>
                   </div>
                 </motion.div>
               </div>
@@ -109,16 +110,18 @@ const Team = () => {
                   variants={variants}
                   whileHover="hover"
                 >
-                  <div className="card rounded-md bg-white">
+                  <div className="card rounded-md font-adam bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708519755/CSI/team/unomztytjlxr9zq6f30i.png"
                       alt="Vidhi Jain"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black font-adam font-bold text-2xl">
                       Vidhi Jain
                     </p>
-                    <p className="text-red-800 text-xl">Vice-Chairperson</p>
+                    <p className="text-red-800 text-xl pb-2">
+                      Vice-Chairperson
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -129,76 +132,76 @@ const Team = () => {
                   variants={variants}
                   whileHover="hover"
                 >
-                  <div className="card rounded-md bg-white">
+                  <div className="card rounded-md font-adam bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708445514/Portfolio/lhemkdewetpm9yomtvnp.png"
                       alt="Yash Gupta"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black font-adam font-bold text-2xl">
                       Yash Gupta
                     </p>
-                    <p className="text-red-800 text-xl">Technical Head</p>
+                    <p className="text-red-800 text-xl pb-2">Technical Head</p>
                   </div>
                 </motion.div>
               </div>
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card  rounded-md bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
-                  <div className="card rounded-md bg-white">
+                  <div className="card font-adam rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708520699/CSI/team/yy8yibctbrlqhlivy3g3.png"
                       alt="Prateek Agarwal"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black  font-bold text-2xl">
                       Prateek Agarwal
                     </p>
-                    <p className="text-red-800 text-xl">R & D Head</p>
+                    <p className="text-red-800 text-xl pb-2">R & D Head</p>
                   </div>
                 </motion.div>
               </div>
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card  rounded-md bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
-                  <div className="card rounded-md bg-white">
+                  <div className="card font-adam rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/shbwpfk8nxqzoz8grgr5.png"
                       alt="Saksham Agarwal"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black  font-bold text-2xl">
                       Saksham Agarwal
                     </p>
-                    <p className="text-red-800 text-xl">Content Head</p>
+                    <p className="text-red-800 text-xl pb-2">Content Head</p>
                   </div>
                 </motion.div>
               </div>
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card rounded-md font-adam bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
-                  <div className="card rounded-md bg-white">
+                  <div className="card font-adam rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521199/CSI/team/yjeminakwecddvjbogpn.png"
                       alt="Aryan Goyal"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black  font-bold text-2xl">
                       Aryan Goyal
                     </p>
-                    <p className="text-red-800 text-xl">
+                    <p className="text-red-800 text-xl pb-2">
                       Public Relations Head
                     </p>
                   </div>
@@ -211,16 +214,16 @@ const Team = () => {
                   variants={variants}
                   whileHover="hover"
                 >
-                  <div className="card rounded-md bg-white">
+                  <div className="card font-adam rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/nvo4p52dgjhkiwhdjeby.png"
                       alt="Vibhor Gupta"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black font-bold text-2xl">
                       Vibhor Gupta
                     </p>
-                    <p className="text-red-800 text-xl">
+                    <p className="text-red-800 text-xl pb-2">
                       Event Management Head
                     </p>
                   </div>
@@ -233,16 +236,18 @@ const Team = () => {
                   variants={variants}
                   whileHover="hover"
                 >
-                  <div className="card rounded-md bg-white">
+                  <div className="card font-adam rounded-md bg-white">
                     <img
                       src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/uri9pcvpu9vbbn1xcrp8.png"
                       alt="Varun Gautam"
-                      className="card-image p-10"
+                      className="card-image p-2"
                     />
-                    <p className="text-black font-serif font-bold text-2xl">
+                    <p className="text-black  font-bold text-2xl">
                       Varun Gautam
                     </p>
-                    <p className="text-red-800 text-xl">Photography Head</p>
+                    <p className="text-red-800 text-xl pb-2">
+                      Photography Head
+                    </p>
                   </div>
                 </motion.div>
               </div>
@@ -252,8 +257,8 @@ const Team = () => {
 
         <section>
           <div className="text-center">
-            <div className="card rounded-md w-11/12 mx-auto text-xl font-semibold bg-white p-1">
-              <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
+            <div className="card rounded-md w-11/12 font-adam mx-auto text-xl font-semibold bg-white p-1">
+              <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Technical Executives
               </h2>
               <p className="text-black">Joyal Jijo</p>
@@ -264,9 +269,9 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center">
+          <div className="text-center font-adam">
             <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
-              <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
+              <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Research and Development Executives
               </h2>
               <p className="text-black">Mridul </p>
@@ -278,9 +283,9 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center">
+          <div className="text-center font-adam">
             <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
-              <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
+              <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Public Relations Executives
               </h2>
               <p className="text-black">Naman Mangla</p>
@@ -296,8 +301,8 @@ const Team = () => {
         </section>
         <section>
           <div className="text-center">
-            <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
-              <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
+            <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+              <h2 className="text-red-800  font-bold text-4xl mb-1">
                 Photography Executives
               </h2>
               <p className="text-black">Manik gulati</p>
@@ -307,8 +312,8 @@ const Team = () => {
         </section>
         <section>
           <div className="text-center">
-            <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
-              <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
+            <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+              <h2 className="text-red-800  font-bold text-4xl mb-1">
                 Event Management Executives
               </h2>
               <p className="text-black">Tinish</p>
@@ -321,8 +326,8 @@ const Team = () => {
         </section>
         <section>
           <div className="text-center">
-            <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
-              <h2 className="text-red-800 font-serif font-bold text-4xl mb-1">
+            <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
+              <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Content Executives
               </h2>
               <p className="text-black">Sarthak Rawat</p>
@@ -335,10 +340,8 @@ const Team = () => {
         </section>
         <section>
           <div className="text-center">
-            <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
-              <h2 className="text-red-800 font-serif font-bold text-4xl">
-                Coordinators
-              </h2>
+            <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
+              <h2 className="text-red-800 font-bold text-4xl">Coordinators</h2>
               <p className="text-black">Parth Goel</p>
               <p className="text-black">Vansh Singla</p>
               <p className="text-black">Radhika Garg</p>

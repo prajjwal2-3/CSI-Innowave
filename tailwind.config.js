@@ -1,5 +1,7 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,8 +10,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "nav-bg":
-          "background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);",
+        "nav-bg": "linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)",
+      },
+      fontFamily: {
+        adam: ['"playfair display"', ...defaultTheme.fontFamily.sans],
       },
     },
   },

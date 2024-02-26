@@ -9,7 +9,7 @@ import Metaspace from "../HomePage/sponsors/Metaspace.jsx";
 const Home = () => {
   return (
     <motion.div
-      className="bg-black"
+      className="bg-black font-adam"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
