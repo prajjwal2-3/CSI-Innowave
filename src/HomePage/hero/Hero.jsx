@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion"; // Import motion from framer-motion
 import galleryData from "../../Gallery/GalleryData";
+
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
@@ -25,7 +27,12 @@ const Hero = () => {
       <section className="bg-black px-auto lg:py-10 lg:px-40">
         <header className="intro ">
           <div className="intro-slideshow ">
-            <img
+            {/* Use motion.div for animation */}
+            <motion.img
+              initial={{ opacity: 0 }} // Initial animation properties
+              animate={{ opacity: 1 }} // Animation to run when component mounts
+              transition={{ duration: 1 }} // Animation duration
+              key={currentImage} // Add a unique key to force re-render for animation
               className="mx-auto w-11/12 h-7/12 md:h-[40rem] "
               src={images[currentImage]}
               alt={`Slide ${currentImage + 1}`}

@@ -3,14 +3,27 @@ import Hero from "../HomePage/hero/Hero";
 import Aboutus from "../HomePage/aboutUs/Aboutus";
 import Footer from "../HomePage/footer/Footer";
 import Scroller from "./Scroller.jsx";
+import { motion } from "framer-motion";
+
 const Home = () => {
   return (
-    <div className="bg-[#070F2B]">
+    <motion.div
+      className="bg-slate-700 mx-4 md:mx-8"
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <Hero />
-      <Aboutus />
-      <Scroller />
-      <Footer />
-    </div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <Aboutus />
+        <Scroller />
+        <Footer />
+      </motion.div>
+    </motion.div>
   );
 };
 
