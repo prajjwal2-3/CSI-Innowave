@@ -33,17 +33,17 @@ const Team = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <motion.div
-            className="card rounded-md bg-white"
+            className="card rounded-md "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <motion.div
-              className="card rounded-md bg-white"
+              className="card rounded-md w-[72%] md:w-full bg-white mx-auto"
               variants={variants}
               whileHover="hover"
             >
-              <div className="text-center mx-auto md:mx-auto w-full md:w-[100%]">
+              <div className="text-center mx-auto md:mx-auto  md:w-[100%]">
                 <div className="card rounded-md bg-white">
                   <img
                     src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101103/CSI/team/l8tqarnnwyguej3alh2g.jpg"
@@ -71,7 +71,7 @@ const Team = () => {
             <div className="flex flex-col mx-10 mb-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-10 font-semibold font-adam">
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md w-full mx-auto bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -84,16 +84,14 @@ const Team = () => {
                     <p className="text-black font-adam font-bold text-2xl">
                       Prof. Neelam Sharma
                     </p>
-                    <p className="text-red-800 text-xl w-[449px] md:w-[auto] pb-2">
-                      Patron
-                    </p>
+                    <p className="text-red-800 text-xl  pb-2">Patron</p>
                   </div>
                 </motion.div>
               </div>
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md  mx-auto bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -113,7 +111,7 @@ const Team = () => {
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md mx-auto bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -132,7 +130,7 @@ const Team = () => {
               </div>
               <div className="text-center">
                 <motion.div
-                  className="card  rounded-md bg-white"
+                  className="card  rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -165,7 +163,7 @@ const Team = () => {
             <div className="flex flex-col mb-10 mx-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-10 font-semibold font-adam">
               <div className="text-center">
                 <motion.div
-                  className="card  rounded-md bg-white"
+                  className="card w-[72%] md:w-full mx-auto rounded-md bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -184,7 +182,7 @@ const Team = () => {
               </div>
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -204,7 +202,7 @@ const Team = () => {
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -226,7 +224,7 @@ const Team = () => {
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -246,7 +244,7 @@ const Team = () => {
 
               <div className="text-center">
                 <motion.div
-                  className="card  rounded-md bg-white"
+                  className="card  rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -266,7 +264,7 @@ const Team = () => {
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md font-adam bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto font-adam bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -288,7 +286,7 @@ const Team = () => {
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -310,7 +308,7 @@ const Team = () => {
 
               <div className="text-center">
                 <motion.div
-                  className="card rounded-md bg-white"
+                  className="card rounded-md w-[72%] md:w-full mx-auto bg-white"
                   variants={variants}
                   whileHover="hover"
                 >
@@ -334,7 +332,7 @@ const Team = () => {
         </motion.section>
 
         <section>
-          <div className="text-center">
+          <div className="text-center mx-10 lg:mx-0">
             <div className="card rounded-md w-11/12 font-adam mx-auto text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Technical Executives
@@ -346,7 +344,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center font-adam">
+          <div className="text-center  mx-10 lg:mx-0 font-adam">
             <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Research and Development Executives
@@ -360,7 +358,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center font-adam">
+          <div className="text-center  mx-10 lg:mx-0 font-adam">
             <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Public Relations Executives
@@ -377,7 +375,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center">
+          <div className="text-center  mx-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800  font-bold text-4xl mb-1">
                 Photography Executives
@@ -388,7 +386,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center">
+          <div className="text-center  mx-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800  font-bold text-4xl mb-1">
                 Event Management Executives
@@ -402,7 +400,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center">
+          <div className="text-center  mx-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Content Executives
@@ -411,12 +409,12 @@ const Team = () => {
               <p className="text-black">Aryan Dutta</p>
               <p className="text-black">Yash Phalaswal</p>
               <p className="text-black">Dev Aggarwal</p>
-              <p className="text-black">Ashish jain</p>
+              <p className="text-black">Ashish Jain</p>
             </div>
           </div>
         </section>
         <section>
-          <div className="text-center">
+          <div className="text-center  mx-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
               <h2 className="text-red-800 font-bold text-4xl">Coordinators</h2>
               <p className="text-black">Parth Goel</p>
