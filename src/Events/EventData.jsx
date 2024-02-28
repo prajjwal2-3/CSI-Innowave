@@ -9,7 +9,7 @@ const eventData = [
       "CSI-INNOWAVE and MetaSpace collaborated to host a gaming station at the Innovation Mela 2024 on February 22nd, 2024.",
     date: "2024-02-22",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708793787/CSI/events/hcgqsvmf8cisdrwufa3m.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130459/csi/events/nddmal7dwtgavgpnbtjk.jpg",
     formLink: "",
     eventPhotos: [
       "https://res.cloudinary.com/dmlles8pf/image/upload/v1708883116/csi/vdwncicmrji2wago3pkt.jpg",
@@ -31,7 +31,7 @@ const eventData = [
       "On February 12th, 2024, the Computer Society of India (CSI) at MAIT hosted a Meet and Greet event where students received induction letters",
     date: "2024-02-12",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516020/CSI/events/mrcorqqtcfomak0nfisu.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130458/csi/events/ri0ybuwmnjtlw8vzb7wa.jpg",
     formLink: "",
     eventPhotos: [
       "https://res.cloudinary.com/dmlles8pf/image/upload/v1708884016/csi/xjamg2upwi4nzqmn8bbq.jpg",
@@ -51,7 +51,7 @@ const eventData = [
       'The Computer Society of India (CSI) at MAIT organized "Rookie Roadmap" on November 29th, 2023, providing invaluable guidance to students for placement preparation.',
     date: "2023-11-29",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516018/CSI/events/dwtml29ilm6jjm1hg96z.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130458/csi/events/xt628dk1up9l2alwfpj5.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -64,7 +64,7 @@ const eventData = [
       "The Computer Society of India (CSI) at MAIT, in collaboration with Quanthive, presented 'Algoswarm' by event Quanthive, on April 29th, 2023.",
     date: "2023-04-29",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516018/CSI/events/ercmqcizwbyzhmc7vwpt.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130458/csi/events/qncrwoqxjtld0bqx2ypo.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -77,7 +77,7 @@ const eventData = [
       'The Computer Society of India (CSI) at MAIT hosted "UI/UX Designation: UI Celerate" on April 5th, 2023.',
     date: "2023-04-05",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516019/CSI/events/hrutwc50x3mondy8wayj.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130458/csi/events/kuojyooxhy4jq9qcomgl.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -90,7 +90,7 @@ const eventData = [
       "CSI MAIT's orientation session on Dec 13th, 2022, was a resounding success!",
     date: "2022-12-13",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516019/CSI/events/wnbxynl3ttyvoayttgaf.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130460/csi/events/eashgvimvriqpcq5purs.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -103,7 +103,7 @@ const eventData = [
       "The Computer Society of India (CSI) at MAIT hosted the seminar 'CODE IT OUT' on October 19th, 2022 featuring speaker Bharat Khanna.",
     date: "2022-10-19",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516020/CSI/events/p9zqo3dmjzrfb00x2xh6.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130460/csi/events/wytmor9gkjedeku09zb1.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -116,7 +116,7 @@ const eventData = [
       'The Computer Society of India (CSI) at MAIT organized "Code the Node" on July 24th, 2022, a dynamic event focused on mastering Node.js development.',
     date: "2022-07-24",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516019/CSI/events/o4mnlrm3wbfnh87p7ywu.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130460/csi/events/q3zl78uuanaxutuzhcc1.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -129,7 +129,7 @@ const eventData = [
       "The Computer Society of India (CSI) at MAIT organized an event on 4th May 2022, focusing on the convergence of 3D printing and hybrid simulation with Swinburne Institute.",
     date: "2022-05-04",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516019/CSI/events/k25v9doyesdgtyfqd65a.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130458/csi/events/ykur45b0v5p19o0lpcod.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -142,7 +142,7 @@ const eventData = [
       "The Computer Society of India MAIT, in collaboration with T.I.M.E, held an enlightening webinar on April 23rd, 2022, featuring esteemed speaker Praveen Chandra.",
     date: "2022-04-23",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516018/CSI/events/ljg0rx0holffyzfa7ons.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130458/csi/events/t3lizhwmyfjz8ltcs9c9.jpg",
     formLink: "",
     eventPhotos: [],
   },
@@ -155,7 +155,7 @@ const eventData = [
       "The Civil Services Preparation Guide webinar on April 28th, 2022, hosted by the Computer Society of India MAIT in collaboration with MOMENTUM IAS.",
     date: "2022-04-28",
     posterLink:
-      "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708516020/CSI/events/sbj7tj1sujakxloosk6s.jpg",
+      "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709130459/csi/events/lwerhnvadmprczpqphii.jpg",
     formLink: "",
     eventPhotos: [
       "https://res.cloudinary.com/dmlles8pf/image/upload/v1708881950/csi/hibu1bcugcta7pzfo3xa.jpg",
