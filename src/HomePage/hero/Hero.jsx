@@ -5,7 +5,7 @@ const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
     "https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708521009/CSI%20Website/Gallery/mlduoo38gu0h85stcpdk.jpg",
-    "https://res.cloudinary.com/dljzvv5dh/image/upload/v1708461655/CSI/vqsjyi4sjoby4irwpw1z.jpg",
+    "https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131039/csi/hero/bnjp2imdhm8ezvcr3clk.jpg",
     "https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708769478/CSI%20Website/Gallery/ewbkh5mwxgeo7sgybvfr.jpg",
     "https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708769585/CSI%20Website/Gallery/wpgnapkpa5j2wxuk2m5x.jpg",
     "https://res.cloudinary.com/dfhj4i9hd/image/upload/v1708521349/CSI%20Website/Gallery/f7n7ssq7ggdnf1mp2bfj.jpg",

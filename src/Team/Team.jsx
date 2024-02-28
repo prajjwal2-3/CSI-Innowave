@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { BackgroundGradient } from "../Components/ui/background-gradient";
-
 const Team = () => {
   const variants = {
     initial: {
@@ -46,7 +44,7 @@ const Team = () => {
               <div className="text-center mx-auto md:mx-auto  md:w-[100%]">
                 <div className="card rounded-md bg-white">
                   <img
-                    src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101103/CSI/team/l8tqarnnwyguej3alh2g.jpg"
+                    src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131195/csi/team/k7in6h3xqjfzqr9dwcma.jpg"
                     alt="Dr.Nand Kishore Garg"
                     className="card-image p-2 w-[367.5px] mx-auto rounded-full"
                   />
@@ -77,7 +75,7 @@ const Team = () => {
                 >
                   <div className="card rounded-md w-full bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101951/CSI/team/vjqhp8mjg5x7jy6srdlk.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131248/csi/team/llgn4s6xwckilkumschq.png"
                       alt="Prof. Neelam Sharma"
                       className="card-image mx-auto w-[367.5px] p-2 "
                     />
@@ -97,7 +95,7 @@ const Team = () => {
                 >
                   <div className="card rounded-md font-adam bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709104578/CSI/team/gpvdyob5iiatkbkczl7l.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131288/csi/team/ov4sqvmtmkqejhvyufag.png"
                       alt="SS deshwal"
                       className="card-image w-[367.5px] p-2 mx-auto rounded-full"
                     />
@@ -117,7 +115,7 @@ const Team = () => {
                 >
                   <div className="card rounded-md font-adam bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101103/CSI/team/q7oqspn7o3qm9anwxfzr.jpg"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131324/csi/team/bttwzako6b0qhvhm2xmi.jpg"
                       alt="Sachin Gupta"
                       className="card-image p-2 rounded-full mx-auto w-[367.5px]"
                     />
@@ -136,7 +134,7 @@ const Team = () => {
                 >
                   <div className="card font-adam rounded-md bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708853769/CSI/team/av7y7mtfogtrdsdzaier.jpg"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131324/csi/team/zbnwrkews8ahtnavdjcj.jpg"
                       alt="Vinay Kumar Saini "
                       className="card-image mx-auto rounded-full p-2"
                     />
@@ -169,8 +167,8 @@ const Team = () => {
                 >
                   <div className="card font-adam rounded-md bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709103008/CSI/team/xgfsy50rlqotlsnrimrw.png"
-                      alt="Prateek Agarwal"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131377/csi/team/xw4vm473raaflklhkv06.png"
+                      alt="kpa"
                       className="card-image p-2"
                     />
                     <p className="text-black  font-bold text-2xl">
@@ -188,7 +186,7 @@ const Team = () => {
                 >
                   <div className="card rounded-md bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708519754/CSI/team/zh8spleoos4ug9cd9c8k.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131504/csi/team/ao0whsaz8j8hlb0bmxcz.png"
                       alt="Saksham Jain"
                       className="card-image p-2"
                     />
@@ -208,7 +206,7 @@ const Team = () => {
                 >
                   <div className="card rounded-md font-adam bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708519755/CSI/team/unomztytjlxr9zq6f30i.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131505/csi/team/v85vjbwy280setlpvtip.png"
                       alt="Vidhi Jain"
                       className="card-image p-2"
                     />
@@ -230,7 +228,7 @@ const Team = () => {
                 >
                   <div className="card rounded-md font-adam bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708445514/Portfolio/lhemkdewetpm9yomtvnp.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131609/csi/team/rauaq8effx32t1iuca18.png"
                       alt="Yash Gupta"
                       className="card-image p-2"
                     />
@@ -250,7 +248,7 @@ const Team = () => {
                 >
                   <div className="card font-adam rounded-md bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/shbwpfk8nxqzoz8grgr5.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131423/csi/team/vwzturjx6lqdkeczki2f.png"
                       alt="Saksham Agarwal"
                       className="card-image p-2"
                     />
@@ -270,7 +268,7 @@ const Team = () => {
                 >
                   <div className="card font-adam rounded-md bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521199/CSI/team/yjeminakwecddvjbogpn.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131434/csi/team/vo0arwv8tqqebihmdira.png"
                       alt="Aryan Goyal"
                       className="card-image p-2"
                     />
@@ -292,7 +290,7 @@ const Team = () => {
                 >
                   <div className="card font-adam rounded-md bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/nvo4p52dgjhkiwhdjeby.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131503/csi/team/t5ijtuofzna2cetpz5kx.png"
                       alt="Vibhor Gupta"
                       className="card-image p-2"
                     />
@@ -314,7 +312,7 @@ const Team = () => {
                 >
                   <div className="card font-adam rounded-md bg-white">
                     <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708521197/CSI/team/uri9pcvpu9vbbn1xcrp8.png"
+                      src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131503/csi/team/mdszyypnnldwxwnnezhf.png"
                       alt="Varun Gautam"
                       className="card-image p-2"
                     />
