@@ -341,20 +341,7 @@ const Team = () => {
             </div>
           </div>
         </section>
-        <section>
-          <div className="text-center  mx-10 lg:mx-0 font-adam">
-            <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
-              <h2 className="text-red-800 font-bold text-4xl mb-1">
-                Research and Development Executives
-              </h2>
-              <p className="text-black">Mridul </p>
-              <p className="text-black">Ravi Kumar</p>
-              <p className="text-black">Nalin Khanna </p>
-              <p className="text-black">Vansh Maheshwari </p>
-              <p className="text-black">Pratham Tyagi</p>
-            </div>
-          </div>
-        </section>
+
         <section>
           <div className="text-center  mx-10 lg:mx-0 font-adam">
             <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
@@ -363,12 +350,17 @@ const Team = () => {
               </h2>
               <p className="text-black">Naman Mangla</p>
               <p className="text-black">MD Azam Siddiqui</p>
-              <p className="text-black">Itisha</p>
+
               <p className="text-black">Moksh Gupta</p>
               <p className="text-black">Tanishq Sethi</p>
               <p className="text-black">Dhruv Goel</p>
               <p className="text-black">Anshika Chaubey</p>
               <p className="text-black">Mukund Aggarwal</p>
+              <p className="text-black">Mridul </p>
+              <p className="text-black">Ravi Kumar</p>
+              <p className="text-black">Nalin Khanna </p>
+              <p className="text-black">Vansh Maheshwari </p>
+              <p className="text-black">Pratham Tyagi</p>
             </div>
           </div>
         </section>
@@ -394,6 +386,7 @@ const Team = () => {
               <p className="text-black">Naveen Verma</p>
               <p className="text-black">Shashwat Shankar</p>
               <p className="text-black">Lakshay Sharma </p>
+              <p className="text-black">Nikhil Hatwal</p>
             </div>
           </div>
         </section>
@@ -406,8 +399,9 @@ const Team = () => {
               <p className="text-black">Sarthak Rawat</p>
               <p className="text-black">Aryan Dutta</p>
               <p className="text-black">Yash Phalaswal</p>
-              <p className="text-black">Dev Aggarwal</p>
               <p className="text-black">Ashish Jain</p>
+              <p className="text-black">Jitendra Kumar Singh</p>
+              <p className="text-black">Itisha</p>
             </div>
           </div>
         </section>
@@ -416,17 +410,15 @@ const Team = () => {
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
               <h2 className="text-red-800 font-bold text-4xl">Coordinators</h2>
               <p className="text-black">Parth Goel</p>
-              <p className="text-black">Vansh Singla</p>
+
               <p className="text-black">Radhika Garg</p>
-              <p className="text-black">Jitendra Kumar Singh</p>
-              <p className="text-black">Nikhil Hatwal</p>
+
               <p className="text-black">Muskan</p>
               <p className="text-black">Komal</p>
               <p className="text-black">Vishank Bhardwaj</p>
               <p className="text-black">Parthsaarthie Sharma</p>
 
-              <p className="text-black">Anuj Kumar</p>
-              <p className="text-black">Ayush Sharma</p>
+              <p className="text-black">Ayush Verma</p>
             </div>
           </div>
         </section>
