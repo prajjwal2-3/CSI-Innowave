@@ -7,8 +7,8 @@ const Metaspace = () => {
         Our Sponsors
       </h2>
       <img
-        src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708968108/CSI/d8hcyqkdewvkooa129cu.jpg"
-        className="mx-auto w-1/2 md:1/3 lg:w-2/12"
+        src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131821/csi/sponsors/brqdtkwosdlivryndldm.jpg"
+        className="mx-auto mt-0 lg:mt-5 w-1/2 md:1/3 lg:w-2/12"
       />
       <p className="hidden md:block">
         MetaSpace, the 3D decentralized metaverse, stands as a beacon of
