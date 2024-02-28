@@ -100,7 +100,7 @@ const NavBar = () => {
             <motion.div
               className={`${
                 isMobileMenuOpen
-                  ? "absolute mobile-menu bg-white p-2 inset-12  rounded shadow  max-h-72"
+                  ? "absolute mobile-menu  p-2 inset-12  rounded shadow  max-h-72"
                   : "hidden"
               } lg:flex lg:items-center lg:w-auto`}
               id="mobile-menu-2"
@@ -108,11 +108,11 @@ const NavBar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <ul className="flex flex-col items-center font-semibold mt-4 text-2xl lg:flex-row lg:space-x-8 lg:mt-0">
+              <ul className="relative z-50 py-5 flex bg-white lg:bg-transparent flex-col items-center font-semibold mt-4 text-2xl lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <Link
                     to="/aboutus"
-                    className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                    className="block py-2 pr-4 pl-3  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent border-gray-700"
                     onClick={handleMenuItemClick}
                   >
                     About Us
@@ -121,7 +121,7 @@ const NavBar = () => {
                 <li>
                   <Link
                     to="/team"
-                    className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                    className="block py-2 pr-4 pl-3  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent border-gray-700"
                     onClick={handleMenuItemClick}
                   >
                     Our Team
@@ -130,7 +130,7 @@ const NavBar = () => {
                 <li>
                   <Link
                     to="/events"
-                    className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                    className="block py-2 pr-4 pl-3 lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent border-gray-700"
                     onClick={handleMenuItemClick}
                   >
                     Events
@@ -139,7 +139,7 @@ const NavBar = () => {
                 <li>
                   <Link
                     to="/gallery"
-                    className="block py-2 pr-4 pl-3 border-b lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                    className="block py-2 pr-4 pl-3  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent border-gray-700"
                     onClick={handleMenuItemClick}
                   >
                     Gallery
@@ -152,7 +152,7 @@ const NavBar = () => {
                       className="cursor-pointer hover:text-red-700"
                     >
                       <FaLinkedin
-                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent "
+                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent "
                         size={30}
                       />
                     </a>
@@ -161,7 +161,7 @@ const NavBar = () => {
                       className="cursor-pointer hover:text-red-700"
                     >
                       <FaInstagram
-                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent"
+                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent"
                         size={30}
                       />
                     </a>
@@ -170,7 +170,7 @@ const NavBar = () => {
                       className="cursor-pointer hover:text-red-700"
                     >
                       <FaYoutube
-                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent "
+                        className="block  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent "
                         size={30}
                       />
                     </a>

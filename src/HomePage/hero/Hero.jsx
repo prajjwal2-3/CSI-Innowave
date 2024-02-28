@@ -27,10 +27,7 @@ const Hero = () => {
         <header className="intro ">
           <div className="intro-slideshow sm: min-h-60 px-auto">
             {/* Use motion.div for animation */}
-            <motion.img
-              initial={{ opacity: 0 }} // Initial animation properties
-              animate={{ opacity: 1 }} // Animation to run when component mounts
-              transition={{ duration: 1 }} // Animation duration
+            <img
               key={currentImage} // Add a unique key to force re-render for animation
               className="mx-auto w-11/12 h-7/12 md:h-[40rem] "
               src={images[currentImage]}

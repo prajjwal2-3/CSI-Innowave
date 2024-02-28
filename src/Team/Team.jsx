@@ -26,22 +26,113 @@ const Team = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="bg-black  w-screen from-blue-500 to-purple-500">
-        <motion.section
-          className="text-center py-5"
-          initial={{ opacity: 0, y: -50 }}
+        <motion.div
+          className="text-center mx-10 py-10 md:mx-auto w-auto md:w-[25%]"
+          initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <section className="text-center py-5">
-            <h1 className="text-white text-5xl font-adam font-bold">
-              Our Team
-            </h1>
-            <p className="text-white"></p>
+          <motion.div
+            className="card rounded-md bg-white"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
+            <motion.div
+              className="card rounded-md bg-white"
+              variants={variants}
+              whileHover="hover"
+            >
+              <div className="text-center mx-auto md:mx-auto w-full md:w-[100%]">
+                <div className="card rounded-md bg-white">
+                  <img
+                    src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101103/CSI/team/l8tqarnnwyguej3alh2g.jpg"
+                    alt="Dr.Nand Kishore Garg"
+                    className="card-image p-2 w-[367.5px] mx-auto rounded-full"
+                  />
+                  <p className="text-black font-adam font-bold text-2xl">
+                    Dr.Nand Kishore Garg
+                  </p>
+                  <p className="text-red-800 text-xl pb-2 font-semibold font-adam">
+                    Chief Patron
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        </motion.div>
+        <motion.section
+          className="flex justify-center items-center"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
+        >
+          <section className="flex justify-center items-center">
+            <div className="flex flex-col mx-10 mb-10 md:grid lg:grid-cols-3 md:grid-cols-2 gap-10 font-semibold font-adam">
+              <div className="text-center">
+                <motion.div
+                  className="card rounded-md md:w-10/12 mx-auto bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
+                  <div className="card rounded-md bg-white">
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101951/CSI/team/vjqhp8mjg5x7jy6srdlk.png"
+                      alt="Prof. Neelam Sharma"
+                      className="card-image mx-auto w-[367.5px] p-2 "
+                    />
+                    <p className="text-black font-adam font-bold text-2xl">
+                      Prof. Neelam Sharma
+                    </p>
+                    <p className="text-red-800 text-xl pb-2">Patron</p>
+                  </div>
+                </motion.div>
+              </div>
+
+              <div className="text-center">
+                <motion.div
+                  className="card rounded-md md:w-10/12 mx-auto bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
+                  <div className="card rounded-md font-adam bg-white">
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101104/CSI/team/okbiuhqpczxvzrlxwxof.jpg"
+                      alt="SS deshwal"
+                      className="card-image  p-2 rounded-full"
+                    />
+                    <p className="text-black font-adam font-bold text-2xl">
+                      Prof. S.S. Deswal
+                    </p>
+                    <p className="text-red-800 text-xl pb-2 ">Patron</p>
+                  </div>
+                </motion.div>
+              </div>
+
+              <div className="text-center">
+                <motion.div
+                  className="card rounded-md md:w-10/12 mx-auto bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
+                  <div className="card rounded-md font-adam bg-white">
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709101103/CSI/team/q7oqspn7o3qm9anwxfzr.jpg"
+                      alt="Sachin Gupta"
+                      className="card-image p-2 rounded-full mx-auto w-[367.5px]"
+                    />
+                    <p className="text-black font-adam font-bold text-2xl">
+                      Prof. Sachin Gupta
+                    </p>
+                    <p className="text-red-800 text-xl pb-2">Patron</p>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
           </section>
         </motion.section>
-
         <motion.div
-          className="text-center mx-10 md:mx-auto w-auto md:w-[25%]"
+          className="text-center mx-10  md:mx-auto w-auto md:w-[25%]"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
@@ -62,7 +153,7 @@ const Team = () => {
                   <img
                     src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708853769/CSI/team/av7y7mtfogtrdsdzaier.jpg"
                     alt="Vinay Kumar Saini"
-                    className="card-image p-2 rounded-full"
+                    className="card-image p-2 mx-auto rounded-full"
                   />
                   <p className="text-black font-adam font-bold text-2xl">
                     Dr.Vinay Kumar Saini
@@ -84,6 +175,25 @@ const Team = () => {
         >
           <section className="flex justify-center items-center">
             <div className="flex flex-col m-10 md:grid lg:grid-cols-4 md:grid-cols-2 gap-10 font-semibold font-adam">
+              <div className="text-center">
+                <motion.div
+                  className="card  rounded-md bg-white"
+                  variants={variants}
+                  whileHover="hover"
+                >
+                  <div className="card font-adam rounded-md bg-white">
+                    <img
+                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1709103008/CSI/team/xgfsy50rlqotlsnrimrw.png"
+                      alt="Prateek Agarwal"
+                      className="card-image p-2"
+                    />
+                    <p className="text-black  font-bold text-2xl">
+                      KPA Dharmanshu Mahajan
+                    </p>
+                    <p className="text-red-800 text-xl pb-2">Advisor</p>
+                  </div>
+                </motion.div>
+              </div>
               <div className="text-center">
                 <motion.div
                   className="card rounded-md bg-white"
@@ -142,26 +252,6 @@ const Team = () => {
                       Yash Gupta
                     </p>
                     <p className="text-red-800 text-xl pb-2">Technical Head</p>
-                  </div>
-                </motion.div>
-              </div>
-
-              <div className="text-center">
-                <motion.div
-                  className="card  rounded-md bg-white"
-                  variants={variants}
-                  whileHover="hover"
-                >
-                  <div className="card font-adam rounded-md bg-white">
-                    <img
-                      src="https://res.cloudinary.com/dljzvv5dh/image/upload/v1708520699/CSI/team/yy8yibctbrlqhlivy3g3.png"
-                      alt="Prateek Agarwal"
-                      className="card-image p-2"
-                    />
-                    <p className="text-black  font-bold text-2xl">
-                      Prateek Agarwal
-                    </p>
-                    <p className="text-red-800 text-xl pb-2">R & D Head</p>
                   </div>
                 </motion.div>
               </div>
@@ -263,7 +353,6 @@ const Team = () => {
               </h2>
               <p className="text-black">Joyal Jijo</p>
               <p className="text-black">Vrishank Sharma</p>
-              <p className="text-black">Naman Jain</p>
               <p className="text-black">Devesh Tuteja</p>
             </div>
           </div>
