@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { useParams } from "react-router-dom";
 import eventData from "./EventData";
@@ -5,7 +6,7 @@ import { motion } from "framer-motion";
 
 const EventInDetail = () => {
   const { id } = useParams();
-  const event = eventData.find((event) => event.id == id);
+  const event = eventData.find((event) => event.id === id);
 
   if (!event) {
     return <div>Event not found</div>;

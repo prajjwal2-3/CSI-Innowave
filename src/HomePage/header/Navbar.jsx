@@ -33,6 +33,11 @@ const NavBar = () => {
     setIsMobileMenuOpen(false);
   };
 
+  const openBrochureInNewTab = () => {
+    window.open("https://drive.google.com/file/d/1GVeWn4GE9DQkwQOEhKW10tApuoYgsR3U/view?usp=sharing", "_blank");
+    handleMenuItemClick();
+  };
+
   return (
     <header className="font-adam font-bold">
       <nav className="border-gray-200 px-4 lg:px-6 py-2.5 bg-slate-100">
@@ -144,6 +149,11 @@ const NavBar = () => {
                   >
                     Gallery
                   </Link>
+                </li>
+                <li
+                    onClick={openBrochureInNewTab}
+                    className="block py-2 pr-4 pl-3  lg:border-0 lg:hover:text-primary-700 lg:p-0 text-black lg:hover:text-red-700 hover:text-red-700 lg:hover:bg-transparent border-gray-700 cursor-pointer">
+                  Brochure
                 </li>
                 <li>
                   <div className="flex flex-row space-x-2 mx-auto mt-3 lg:mt-0 hover:text-red-700 items-center justify-between">

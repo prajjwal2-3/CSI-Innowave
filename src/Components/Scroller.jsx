@@ -4,7 +4,8 @@ import eventData from "../Events/EventData.jsx";
 import { Link } from "react-router-dom";
 
 const Scroller = () => {
-  const [isHovered, setIsHovered, hoveredIndex] = useState(false);
+    // eslint-disable-next-line no-unused-vars
+  const [isHovered, setIsHovered] = useState(false);
    
 
   // Toggle hover state
@@ -35,7 +36,8 @@ const Scroller = () => {
         onMouseLeave={handleHover}
       >
         <AnimatePresence>
-          {eventData.map((event, index) => (
+            {/* eslint-disable-next-line no-unused-vars */}
+          {eventData.map((event) => (
             <motion.div
               key={event.title}
               initial={{ opacity: 0, x: "100%" }}

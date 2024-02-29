@@ -9,7 +9,7 @@ const Metaspace = () => {
       <img
         src="https://res.cloudinary.com/dpp2rltxx/image/upload/v1709131821/csi/sponsors/brqdtkwosdlivryndldm.jpg"
         className="mx-auto mt-0 lg:mt-5 w-1/2 md:1/3 lg:w-2/12"
-      />
+       alt="metaspace logo"/>
       <p className="hidden md:block">
         MetaSpace, the 3D decentralized metaverse, stands as a beacon of
         innovation and limitless potential in the digital landscape. Offering a

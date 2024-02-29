@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion"; // Import motion from framer-motion
-
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
@@ -19,7 +17,7 @@ const Hero = () => {
     }, 6000);
 
     return () => clearInterval(interval);
-  }, [currentImage]);
+  }, [currentImage, images.length]);
 
   return (
     <div className="bg-gray-700 w-full h-1/4">
