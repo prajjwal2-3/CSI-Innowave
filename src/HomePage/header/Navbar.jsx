@@ -56,7 +56,9 @@ const NavBar = () => {
           <div className="flex items-center space-x-4 lg:space-x-8">
             <button
                 onClick={openBrochureInNewTab}
-                className="text-black lg:hidden sm:block">Brochure
+                className="text-red-500 bg-black border border-black px-4 py-2 rounded-lg lg:hidden sm:block"
+            >
+              Brochure
             </button>
             <motion.button
                 onClick={toggleMobileMenu}
