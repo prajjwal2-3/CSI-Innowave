@@ -4,9 +4,8 @@ import eventData from "../Events/EventData.jsx";
 import { Link } from "react-router-dom";
 
 const Scroller = () => {
-    // eslint-disable-next-line no-unused-vars
+  // eslint-disable-next-line no-unused-vars
   const [isHovered, setIsHovered] = useState(false);
-   
 
   // Toggle hover state
   const handleHover = () => {
@@ -17,7 +16,6 @@ const Scroller = () => {
     const interval = setInterval(() => {
       if (!isHovered) {
         // Move to next card automatically
-        console.log("Moving to next card...");
       }
     }, 3000); // Change the interval time as needed
 
@@ -36,7 +34,7 @@ const Scroller = () => {
         onMouseLeave={handleHover}
       >
         <AnimatePresence>
-            {/* eslint-disable-next-line no-unused-vars */}
+          {/* eslint-disable-next-line no-unused-vars */}
           {eventData.map((event) => (
             <motion.div
               key={event.title}
