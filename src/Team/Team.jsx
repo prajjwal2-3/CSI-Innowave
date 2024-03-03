@@ -330,7 +330,7 @@ const Team = () => {
         </motion.section>
 
         <section>
-          <div className="text-center mx-10 lg:mx-0">
+          <div className="text-center mx-10 mb-10 lg:mx-0">
             <div className="card rounded-md w-11/12 font-adam mx-auto text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Technical Executives
@@ -343,7 +343,7 @@ const Team = () => {
         </section>
 
         <section>
-          <div className="text-center  mx-10 lg:mx-0 font-adam">
+          <div className="text-center  mx-10 mb-10 lg:mx-0 font-adam">
             <div className="card rounded-md w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Public Relations Executives
@@ -365,7 +365,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center  mx-10 lg:mx-0">
+          <div className="text-center  mx-10 mb-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800  font-bold text-4xl mb-1">
                 Photography Executives
@@ -376,7 +376,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center  mx-10 lg:mx-0">
+          <div className="text-center  mx-10 mb-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800  font-bold text-4xl mb-1">
                 Event Management Executives
@@ -391,7 +391,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center  mx-10 lg:mx-0">
+          <div className="text-center  mx-10 mb-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white p-1">
               <h2 className="text-red-800 font-bold text-4xl mb-1">
                 Content Executives
@@ -406,7 +406,7 @@ const Team = () => {
           </div>
         </section>
         <section>
-          <div className="text-center  mx-10 lg:mx-0">
+          <div className="text-center  mx-10 mb-10 lg:mx-0">
             <div className="card rounded-md font-adam w-11/12 mx-auto my-5 text-xl font-semibold bg-white">
               <h2 className="text-red-800 font-bold text-4xl">Coordinators</h2>
               <p className="text-black">Parth Goel</p>
