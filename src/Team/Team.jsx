@@ -400,7 +400,7 @@ const Team = () => {
               <p className="text-black">Aryan Dutta</p>
               <p className="text-black">Yash Phalaswal</p>
               <p className="text-black">Ashish Jain</p>
-              <p className="text-black">Jitendra Kumar Singh</p>
+              <p className="text-black">Jitendra Kumar Sagar</p>
               <p className="text-black">Itisha</p>
             </div>
           </div>
