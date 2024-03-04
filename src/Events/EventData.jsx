@@ -9,6 +9,7 @@ const eventData = [
       shortDescription: "Join MindForge at TechSurge and Mridang on March 20-21 for an epic fusion of intellect and gaming! Dive into tech quizzes, unravel word searches, navigate Wiki races, and compete in MetaSpace gaming. Win big prizes and goodies worth INR 10,000.",
       date: "2024-03-20",
       posterLink: "https://res.cloudinary.com/dfhj4i9hd/image/upload/v1709569063/CSI%20Website/Events/hw7nppsn4j9l8qfvcstw.jpg",
+      formLink: "https://forms.gle/ApXsp5WZD2HixXq27"
 
   },
   {
