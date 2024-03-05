@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../HomePage/hero/Hero";
+import SparklesPreview from "../HomePage/hero/Hero2";
 import Aboutus from "../HomePage/aboutUs/Aboutus";
 import Footer from "../HomePage/footer/Footer";
 import Scroller from "./Scroller.jsx";
@@ -9,12 +9,12 @@ import Metaspace from "../HomePage/sponsors/Metaspace.jsx";
 const Home = () => {
   return (
     <motion.div
-      className="bg-black font-adam"
+      className="bg-white font-adam"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <Hero />
+      < SparklesPreview />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

@@ -43,7 +43,7 @@ const NavBar = () => {
 
   return (
     <header className="font-adam font-bold">
-      <nav className="border-gray-200 px-4 lg:px-6 py-2.5 bg-slate-100">
+      <nav className="h-full w-full bg-purple-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 border border-gray-100">
         <div className="flex justify-between items-center mx-auto max-w-screen-xl">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
