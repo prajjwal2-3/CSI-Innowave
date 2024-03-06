@@ -1,11 +1,10 @@
 "use client";
-
 import React from "react";
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import type { Container, Engine } from "@tsparticles/engine";
+import type { Container, SingleOrMultiple } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
-import { cn } from "../../utils/cn";
+import { cn } from "../../utils/cn.ts";
 import { motion, useAnimation } from "framer-motion";
 
 type ParticlesProps = {
@@ -42,6 +41,7 @@ export const SparklesCore = (props: ParticlesProps) => {
 
   const particlesLoaded = async (container?: Container) => {
     if (container) {
+      console.log(container);
       controls.start({
         opacity: 1,
         transition: {
@@ -103,7 +103,7 @@ export const SparklesCore = (props: ParticlesProps) => {
               },
               collisions: {
                 absorb: {
-                  speed: 1,
+                  speed: 2,
                 },
                 bounce: {
                   horizontal: {
@@ -114,7 +114,7 @@ export const SparklesCore = (props: ParticlesProps) => {
                   },
                 },
                 enable: false,
-                maxSpeed: 10,
+                maxSpeed: 50,
                 mode: "bounce",
                 overlap: {
                   enable: true,
@@ -157,7 +157,7 @@ export const SparklesCore = (props: ParticlesProps) => {
                 close: true,
                 fill: true,
                 options: {},
-                type: {} as any,
+                type: {} as SingleOrMultiple<string> | undefined,
               },
               groups: {},
               move: {
