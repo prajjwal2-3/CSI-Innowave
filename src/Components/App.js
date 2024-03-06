@@ -26,6 +26,9 @@ export const appRouter = createBrowserRouter([
         path:"/",
         element:<GridBackgroundDemo/>
 
+      },{
+        path:"/Home",
+        element:<GridBackgroundDemo/>
       },
       {
         path:"/About",

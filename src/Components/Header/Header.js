@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import GlassAppBar from './GlassAppBar';
 import {useNavigate} from 'react-router-dom'
-const pages = ['Team', 'Brochure', 'Events','Gallery','About'];
+const pages = ['Home','Team', 'Brochure', 'Events','Gallery','About'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -102,7 +102,9 @@ navigate(`${page}`)
              <div className="font-bold">
              {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu} >
-                  <Button onClick={()=>{
+                  <Button 
+                   sx={{ color: 'black'}}
+                  onClick={()=>{
                     handleNavigation(page)
                   }} textAlign="center" >{page}</Button>
                 </MenuItem>
@@ -145,7 +147,7 @@ navigate(`${page}`)
               ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -173,7 +175,7 @@ navigate(`${page}`)
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
 
         
         </Toolbar>
