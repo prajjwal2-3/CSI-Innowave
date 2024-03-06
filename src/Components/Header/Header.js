@@ -20,9 +20,13 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
 
-
+const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const handleNavigation =(page)=>{
+console.log(page)
+navigate(`${page}`)
+  }
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -97,8 +101,10 @@ function ResponsiveAppBar() {
             >
              <div className="font-bold">
              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu()} >
-                  <Typography  textAlign="center" >{page}</Typography>
+                <MenuItem key={page} onClick={handleCloseNavMenu} >
+                  <Button onClick={()=>{
+                    handleNavigation(page)
+                  }} textAlign="center" >{page}</Button>
                 </MenuItem>
               ))}
              </div>
@@ -129,7 +135,9 @@ function ResponsiveAppBar() {
           {pages.map((page) => (
                  <Button
                  key={page}
-                 onClick={handleCloseNavMenu}
+                 onClick={()=>{
+                  handleNavigation(page)
+                 }}
                  sx={{ my: 2, color: 'white', display: 'block' }}
                >
                  {page}
